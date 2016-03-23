@@ -16,4 +16,7 @@ Be patient. It won't take long!
 
 ### Credits
 
-The origin Code, Idea and everything else was made by [Miodec](https://www.reddit.com/user/miodec).
+- [Miodec](https://www.reddit.com/user/miodec) originally created the skill calculator
+- [try4ce](https://www.reddit.com/user/try4ce) did some css corrections
+- [iamswain](https://www.reddit.com/user/iamswain) helped doing the icons
+- [Angier](https://www.reddit.com/user/angier) is just the awesome guy :heart:
