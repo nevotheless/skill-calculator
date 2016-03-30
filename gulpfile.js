@@ -64,4 +64,4 @@ gulp.task('default', ['css', 'js', 'browser-sync'], function () {
     gulp.watch("app/*.html", ['bs-reload']);
 });
 
-gulp.task('test', ['css', 'js']);
+gulp.task('build', ['css', 'js']);
