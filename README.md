@@ -1,4 +1,5 @@
 # skill-calculator
+[![Build Status](https://travis-ci.org/ununseptium/skill-calculator.svg?branch=master)](https://travis-ci.org/ununseptium/skill-calculator)
 
 This is the repository for the Skill Calculator based on Tom Clancy's The Division. The Skill Calculator was originally made by [Miodec](https://www.reddit.com/user/miodec) and is now continued and maintained by some guys from the [Discord Community](http://thedivisiondiscord.com) of the Game.
 
