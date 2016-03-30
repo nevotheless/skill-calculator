@@ -19,6 +19,7 @@ This will compile the source, watch for changes and reload the browser window if
 ### Credits
 
 - [Miodec](https://www.reddit.com/user/miodec) originally created the skill calculator
+- [nevotheless](https://www.reddit.com/user/nevotheless) thats me, the guy who continued this project
 - [try4ce](https://www.reddit.com/user/try4ce) did some css corrections
 - [iamswain](https://www.reddit.com/user/iamswain) helped doing the icons
 - [Angier](https://www.reddit.com/user/angier) is just the awesome guy :heart:
