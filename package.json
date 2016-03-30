@@ -22,7 +22,6 @@
     "jshint": "^2.8.0"
   },
   "scripts": {
-    "preinstall": "npm install -g gulp",
-    "postinstall": "gulp build"
+    "postinstall": "gulp test"
   }
 }
