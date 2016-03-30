@@ -574,23 +574,157 @@ var data = {
       desc: "Deploys a stationary turret that attacks nearby hostiles until it is destroyed or its battery runs out.",
       req: "Control Room",
       mod0: {
-
+        attr:{
+          damage: {
+            name: "Damage",
+            base: 308.0,
+            unit: 'HP'
+          },
+          range: {
+            name: "Range",
+            base: 30.0,
+            unit: 'm'
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 30.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 13437,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 55.50,
+            unit: 's'
+          },
+        },
       },
       mod1: {
         name: "Active Sensor",
         desc: "Increases turret's damage and pulses attacked targets, making them visible to all allies.",
+        attr:{
+          damage: {
+            name: "Damage",
+            base: 377.0,
+            unit: 'HP'
+          },
+          range: {
+            name: "Range",
+            base: 30.0,
+            unit: 'm'
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 30.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 13437,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 55.50,
+            unit: 's'
+          },
+        },
       },
       mod2: {
         name: "Dragonbreath",
         desc: "Turret has reduced range but shoots a column of fire.",
+        attr:{
+          damage: {
+            name: "Damage",
+            base: 514.0,
+            unit: 'HP'
+          },
+          range: {
+            name: "Range",
+            base: 12.0,
+            unit: 'm'
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 30.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 13437,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 69.40,
+            unit: 's'
+          },
+        },
       },
       mod3: {
         name: "Zapper",
         desc: "Turret shoots electrical darts that damage and shock multiple targets.",
+        attr:{
+          damage: {
+            name: "Damage",
+            base: 171.0,
+            unit: 'HP'
+          },
+          range: {
+            name: "Range",
+            base: 20.0,
+            unit: 'm'
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 30.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 13437,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 55.50,
+            unit: 's'
+          },
+        },
       },
       mod4: {
         name: "Scorched Earth",
-        desc: "Turret explodes when manually disabled, damaging all nearby targets."
+        desc: "Turret explodes when manually disabled, damaging all nearby targets.",
+        attr:{
+          damage: {
+            name: "Damage",
+            base: 308.0,
+            unit: 'HP'
+          },
+          range: {
+            name: "Range",
+            base: 30.0,
+            unit: 'm'
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 30.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 13437,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 55.50,
+            unit: 's'
+          },
+        }
       },
     },
     skill3: {
@@ -598,23 +732,182 @@ var data = {
       desc: "Releases an automated mine that seeks out hostile targets before exploding on proximity.",
       req: "Communications",
       mod0: {
-
+        attr:{
+          explosionDamage: {
+            name: "Explosion Damage",
+            base: 13437,
+            unit: 'HP'
+          },
+          explosionRadius: {
+            name: "Explosion Radius",
+            base: 6.0,
+            unit: 'm'
+          },
+          detectionRange: {
+            name: "Detection Range",
+            base: 30,
+            unit: 'm'  
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 45.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 2016,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 64.80,
+            unit: 's'
+          },
+        },
       },
       mod1: {
         name: "Airburst",
         desc: "Upon impact, the mine is launched in the air and releases a cluster of small incendiary explosives.",
+        attr:{
+          explosionDamage: {
+            name: "Explosion Damage",
+            base: 4031,
+            unit: 'HP'
+          },
+          explosionRadius: {
+            name: "Explosion Radius",
+            base: 4.0,
+            unit: 'm'
+          },
+          detectionRange: {
+            name: "Detection Range",
+            base: 30,
+            unit: 'm'  
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 45.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 2016,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 64.80,
+            unit: 's'
+          },
+        },
       },
       mod2: {
         name: "Gas Charge",
         desc: "The mine seeks out and moves between multiple targets, releasing a cloud of disorienting gas on impact.",
+        attr:{
+          explosionDamage: {
+            name: "Explosion Damage",
+            base: 0,
+            unit: 'HP'
+          },
+          explosionRadius: {
+            name: "Explosion Radius",
+            base: 5.0,
+            unit: 'm'
+          },
+          detectionRange: {
+            name: "Detection Range",
+            base: 30,
+            unit: 'm'  
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 45.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 2016,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 55.50,
+            unit: 's'
+          },
+        },
       },
       mod3: {
         name: "Cluster",
         desc: "Mine separates into smaller pieces that seek out multiple targets simultaneously.",
+        attr:{
+          explosionDamage: {
+            name: "Explosion Damage",
+            base: 4031,
+            unit: 'HP'
+          },
+          explosionRadius: {
+            name: "Explosion Radius",
+            base: 3.0,
+            unit: 'm'
+          },
+          detectionRange: {
+            name: "Detection Range",
+            base: 30,
+            unit: 'm'  
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 45.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 672,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 64.80,
+            unit: 's'
+          },
+        },
       },
       mod4: {
         name: "Seeking-Betty",
-        desc: "Mine can bounce onto and over low covers, and can move directly towards its target."
+        desc: "Mine can bounce onto and over low covers, and can move directly towards its target.",
+        attr:{
+          explosionDamage: {
+            name: "Explosion Damage",
+            base: 13437,
+            unit: 'HP'
+          },
+          explosionRadius: {
+            name: "Explosion Radius",
+            base: 6.0,
+            unit: 'm'
+          },
+          detectionRange: {
+            name: "Detection Range",
+            base: 30,
+            unit: 'm'  
+          },
+          lifetime: {
+            name: "Lifetime",
+            base: 45.0,
+            unit: 's'
+          },
+          health: {
+            name: "Health",
+            base: 2016,
+            unit: 'HP'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 64.80,
+            unit: 's'
+          },
+        },
       },
     },
     sig: {
@@ -622,7 +915,33 @@ var data = {
       desc: "Increases damage and critical hit chance to the user and all nearby allies.",
       req: "Division Tech",
       mod0: {
-        
+        attr:{
+          damageBuff: {
+            name: "Damage Buff",
+            base: 50,
+            unit: '%'
+          },
+          critChance: {
+            name: "Critical Hit Chance",
+            base: 20,
+            unit: '%'
+          },
+          duration: {
+            name: "Duration",
+            base: 12.0,
+            unit: 's'
+          },
+          range: {
+            name: "Range",
+            base: 25,
+            unit: 'm'
+          },
+          cooldown: {
+            name: "Cooldown",
+            base: 833,
+            unit: 's'
+          },
+        },
       },
     }
   },
@@ -635,7 +954,7 @@ var data = {
         attr: {
           health: {
             name: 'Health',
-            base: 1800.0,
+            base: 40312.0,
             unit: 'HP',
           },
           damageInc: {
@@ -650,26 +969,114 @@ var data = {
           },
           cooldown: {
             name: 'Cooldown',
-            base: 42.4,
+            base: 41.70,
             unit: 's',
           }
         }
       },
       mod1: {
-        name: "nodata",
-        desc: "(?)Stronger and lighter riot shield, pulses targets that shoot at it",
+        name: "Reactive Targeting",
+        desc: "Equips a stronger and lighter shield that pulses hostiles who shoot at it.",
+        attr: {
+          health: {
+            name: 'Health',
+            base: 60467.0,
+            unit: 'HP',
+          },
+          damageInc: {
+            name: 'Damage Increase',
+            base: 5.0,
+            unit: '%',
+          },
+          damageRes: {
+            name: 'Damage Resistance',
+            base: 10.0,
+            unit: '%',
+          },
+          cooldown: {
+            name: 'Cooldown',
+            base: 41.70,
+            unit: 's',
+          }
+        }
       },
       mod2: {
-        name: "nodata",
-        desc: "(?)Strengthen shield and increase side arm damage, knockback, accuracy and faster reload speed",
+        name: "Assault Shield",
+        desc: "Equips a shield that grants the users sidearm increased damage, knockback, increased accuracy, and faster reload speed.",
+        attr: {
+          health: {
+            name: 'Health',
+            base: 30234.0,
+            unit: 'HP',
+          },
+          damageInc: {
+            name: 'Damage Increase',
+            base: 20.0,
+            unit: '%',
+          },
+          damageRes: {
+            name: 'Damage Resistance',
+            base: 10.0,
+            unit: '%',
+          },
+          cooldown: {
+            name: 'Cooldown',
+            base: 41.70,
+            unit: 's',
+          }
+        }
       },
       mod3: {
-        name: "nodata",
-        desc: "(?)Convert small portion of incoming damage as healing",
+        name: "Kinetic Breaker",
+        desc: "Grants the user a small portion of incoming damage as healing",
+        attr: {
+          health: {
+            name: 'Health',
+            base: 40312.0,
+            unit: 'HP',
+          },
+          damageInc: {
+            name: 'Damage Increase',
+            base: 10.0,
+            unit: '%',
+          },
+          damageRes: {
+            name: 'Damage Resistance',
+            base: 10.0,
+            unit: '%',
+          },
+          cooldown: {
+            name: 'Cooldown',
+            base: 55.50,
+            unit: 's',
+          }
+        }
       },
       mod4: {
-        name: "nodata",
-        desc: "(?)Allows riot shield to heal itself after not taking damage for a small amount of time."
+        name: "Self-healing Armor",
+        desc: "After a short time without taking any damage, the shield slowly repairs itself to full health.",
+        attr: {
+          health: {
+            name: 'Health',
+            base: 40312.0,
+            unit: 'HP',
+          },
+          damageInc: {
+            name: 'Damage Increase',
+            base: 10.0,
+            unit: '%',
+          },
+          damageRes: {
+            name: 'Damage Resistance',
+            base: 10.0,
+            unit: '%',
+          },
+          cooldown: {
+            name: 'Cooldown',
+            base: 41.70,
+            unit: 's',
+          }
+        }
       },
     },
     skill2: {
@@ -677,23 +1084,182 @@ var data = {
       desc: "Reinforces a cover, increasing the users damage and decreasing the incoming damage for all allies behind it.",
       req: "Situation Room",
       mod0: {
-
+          attr: {
+              damageRes: {
+                  name: 'Damage Resistance',
+                  base: 25.60,
+                  unit: '%'
+              },
+              damageBuff: {
+                  name: 'Damage Buff',
+                  base: 19.20,
+                  unit: '%'
+              },
+              effectRange: {
+                  name: 'Effect Range',
+                  base: 8,
+                  unit: 'm'
+              },
+              lifeTime: {
+                  name: 'Lifetime',
+                  base: 30,
+                  unit: 's'
+              },
+              deployRange: {
+                  name: 'Deploy Range',
+                  base: 30,
+                  unit: 'm'
+              },
+              cooldown: {
+                  name: 'Cooldown',
+                  base: 55.50,
+                  unit: 's'
+              }
+          }
       },
       mod1: {
-        name: "nodata",
-        desc: "(?)Hostiles using the affected cover deal less damage and take more damage.",
+        name: "Trapper",
+        desc: "Hostile targets using a reinforced cover deal less damage, while taking increased damage.",
+        attr: {
+            damageRes: {
+                name: 'Damage Resistance',
+                base: 12.80,
+                unit: '%'
+            },
+            damageBuff: {
+                name: 'Damage Buff',
+                base: 95.90,
+                unit: '%'
+            },
+            effectRange: {
+                name: 'Effect Range',
+                base: 8,
+                unit: 'm'
+            },
+            lifeTime: {
+                name: 'Lifetime',
+                base: 30,
+                unit: 's'
+            },
+            deployRange: {
+                name: 'Deploy Range',
+                base: 30,
+                unit: 'm'
+            },
+            cooldown: {
+                name: 'Cooldown',
+                base: 55.50,
+                unit: 's'
+            }
+        }
       },
       mod2: {
-        name: "nodata",
-        desc: "(?)Slow health recovery and faster skill cooldown recharge",
+        name: "Recharger",
+        desc: "Allies using a reinforced cover slowly recover their health and get their skill cooldowns decreased.",
+          attr: {
+              damageRes: {
+                  name: 'Damage Resistance',
+                  base: 25.60,
+                  unit: '%'
+              },
+              damageBuff: {
+                  name: 'Damage Buff',
+                  base: 19.20,
+                  unit: '%'
+              },
+              effectRange: {
+                  name: 'Effect Range',
+                  base: 8,
+                  unit: 'm'
+              },
+              lifeTime: {
+                  name: 'Lifetime',
+                  base: 20,
+                  unit: 's'
+              },
+              deployRange: {
+                  name: 'Deploy Range',
+                  base: 30,
+                  unit: 'm'
+              },
+              cooldown: {
+                  name: 'Cooldown',
+                  base: 55.50,
+                  unit: 's'
+              }
+          }
       },
       mod3: {
-        name: "nodata",
-        desc: "(?)Anyone behind cover is immune to pulse and any hostile shot by allies in this cover are pulsed",
+        name: "Concealment",
+        desc: "Allies using a reinforced cover are hidden from hostile pulses and have reduced threat. Hostiles shot by allies from behind the cover are pulsed.",
+          attr: {
+              damageRes: {
+                  name: 'Damage Resistance',
+                  base: 25.60,
+                  unit: '%'
+              },
+              damageBuff: {
+                  name: 'Damage Buff',
+                  base: 19.20,
+                  unit: '%'
+              },
+              effectRange: {
+                  name: 'Effect Range',
+                  base: 6,
+                  unit: 'm'
+              },
+              lifeTime: {
+                  name: 'Lifetime',
+                  base: 30,
+                  unit: 's'
+              },
+              deployRange: {
+                  name: 'Deploy Range',
+                  base: 30,
+                  unit: 'm'
+              },
+              cooldown: {
+                  name: 'Cooldown',
+                  base: 55.50,
+                  unit: 's'
+              }
+          }
       },
       mod4: {
-        name: "nodata",
-        desc: "(?)Extends duration of effect after leaving the cover."
+        name: "Cover Trail",
+        desc: "Extends the effect so that it lasts for a period of a time after leaving the cover.",
+          attr: {
+              damageRes: {
+                  name: 'Damage Resistance',
+                  base: 25.60,
+                  unit: '%'
+              },
+              damageBuff: {
+                  name: 'Damage Buff',
+                  base: 19.20,
+                  unit: '%'
+              },
+              effectRange: {
+                  name: 'Effect Range',
+                  base: 8,
+                  unit: 'm'
+              },
+              lifeTime: {
+                  name: 'Lifetime',
+                  base: 30,
+                  unit: 's'
+              },
+              deployRange: {
+                  name: 'Deploy Range',
+                  base: 30,
+                  unit: 'm'
+              },
+              cooldown: {
+                  name: 'Cooldown',
+                  base: 55.50,
+                  unit: 's'
+              }
+          }
       },
     },
     skill3: {
@@ -701,23 +1267,132 @@ var data = {
       desc: "Creates a temporary cover for one person, which provides standard cover protection until destroyed.",
       req: "Armory",
       mod0: {
-
+          attr: {
+              health: {
+                  name: 'Health',
+                  base: 107498,
+                  unit: 'HP'
+              },
+              weaponResistance: {
+                  name: 'Weapon Resistance',
+                  base: 20,
+                  unit: '%'
+              },
+              blastResistance: {
+                  name: 'Blast Resistance',
+                  base: 25,
+                  unit: '%'
+              },
+              cooldown: {
+                  name: 'Cooldown',
+                  base: 37.0,
+                  unit: 's'
+              }
+          }
       },
       mod1: {
-        name: "nodata",
-        desc: "(?)Fixed cover is larger allowing more than 1 person behind it.",
+        name: "Extension",
+        desc: "The cover provides more protection and extends to protect two persons.",
+        attr: {
+            health: {
+                name: 'Health',
+                base: 214995,
+                unit: 'HP'
+            },
+            weaponResistance: {
+                name: 'Weapon Resistance',
+                base: 20,
+                unit: '%'
+            },
+            blastResistance: {
+                name: 'Blast Resistance',
+                base: 25,
+                unit: '%'
+            },
+            cooldown: {
+                name: 'Cooldown',
+                base: 55.0,
+                unit: 's'
+            }
+        }
       },
       mod2: {
-        name: "nodata",
-        desc: "(?)Adds remote explosives and damages hostiles in front of it.",
+        name: "Blast Shield",
+        desc: "The cover is fitted with remote explosives that damage hostiles in front of it when the shield is disabled.",
+        attr: {
+            health: {
+                name: 'Health',
+                base: 107498,
+                unit: 'HP'
+            },
+            weaponResistance: {
+                name: 'Weapon Resistance',
+                base: 18,
+                unit: '%'
+            },
+            blastResistance: {
+                name: 'Blast Resistance',
+                base: 12.50,
+                unit: '%'
+            },
+            cooldown: {
+                name: 'Cooldown',
+                base: 37.0,
+                unit: 's'
+            }
+        }
       },
       mod3: {
-        name: "nodata",
-        desc: "(?)Increases your damage output while behind it and protects you from hostile pulses.",
+        name: "Countermeasures",
+        desc: "While using the cover, the user deals increased damage and becomes immune to pulses.",
+        attr: {
+            health: {
+                name: 'Health',
+                base: 80623,
+                unit: 'HP'
+            },
+            weaponResistance: {
+                name: 'Weapon Resistance',
+                base: 20,
+                unit: '%'
+            },
+            blastResistance: {
+                name: 'Blast Resistance',
+                base: 25,
+                unit: '%'
+            },
+            cooldown: {
+                name: 'Cooldown',
+                base: 37.0,
+                unit: 's'
+            }
+        }
       },
       mod4: {
-        name: "nodata",
-        desc: "(?)If cover is destroyed, any allies behind it gain damage resistance"
+        name: "Second Chance",
+        desc: "When the cover is destroyed by incoming damage, all allies behind the shield recieve temporary damage resistance.",
+        attr: {
+            health: {
+                name: 'Health',
+                base: 107498,
+                unit: 'HP'
+            },
+            weaponResistance: {
+                name: 'Weapon Resistance',
+                base: 20,
+                unit: '%'
+            },
+            blastResistance: {
+                name: 'Blast Resistance',
+                base: 25,
+                unit: '%'
+            },
+            cooldown: {
+                name: 'Cooldown',
+                base: 37.0,
+                unit: 's'
+            }
+        }
       },
     },
     sig: {
@@ -725,23 +1400,33 @@ var data = {
       desc: "Increases damage resistance and speed for the user and nearby allies.",
       req: "Barracks",
       mod0: {
-
-      },
-      mod1: {
-        name: "nodata",
-        desc: "nodata",
-      },
-      mod2: {
-        name: "nodata",
-        desc: "nodata",
-      },
-      mod3: {
-        name: "nodata",
-        desc: "nodata",
-      },
-      mod4: {
-        name: "nodata",
-        desc: "nodata"
+        attr: {
+            damageRes: {
+                name: 'Damage Resistance',
+                base: 80,
+                unit: '%'
+            },
+            movementSpeed: {
+                name: 'Movement Speed',
+                base: 30,
+                unit: '%'
+            },
+            duration: {
+                name: 'Duration',
+                base: 15,
+                unit: 's'
+            },
+            range: {
+                name: 'Range',
+                base: 25,
+                unit: 'm'
+            },
+            cooldown: {
+                name: 'Cooldown',
+                base: 833,
+                unit: 's'
+            }
+        }
       },
     }
   },
@@ -967,6 +1652,13 @@ function checkAttr() {
     check('selfHeal');
     check('explosionRadius');
     check('explosionDamage');
+    check('detectionRange');
+    check('movementSpeed');
+    check('blastResistance');
+    check('weaponResistance');
+    check('damageBuff');
+    check('damage');
+    check('effectRange');
     check('damageRes');
     check('damageInc');
     check('health');
