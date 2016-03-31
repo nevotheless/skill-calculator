@@ -16,6 +16,12 @@ Once you either cloned or downloaded the source run `npm install` to install the
 If `npm install` quits without telling you that something horrible happend you're ready to fire `gulp`.
 This will compile the source, watch for changes and reload the browser window if you save changes. **Pure Magic**.
 
+### Contribute
+Feel Free to fork and contribute to this repository. There're no restrictions just be nice!
+
+### Support
+In case you have questions or need support you can either [open an issue ticket](https://github.com/ununseptium/skill-calculator/issues/new) or write me a message on the ['The Division Discord Server'](http://thedivisiondiscord.com). My username there is `nevotheless` feel free to PM me, i do not bite.
+
 ### Credits
 
 - [Miodec](https://www.reddit.com/user/miodec) originally created the skill calculator
