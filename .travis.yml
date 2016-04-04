@@ -6,11 +6,7 @@ before_script:
 - npm install -g gulp
 script: gulp test
 deploy:
-  provider: openshift
-  user: tim@arctium.org
-  password:
-    secure: dbE7YfwDz6uGk1adkX4sLXozfSfpPK1DOyPyboNrpIeFP3ym40KQDPlxs4nVJ7svjP7fuey3E/O43h2+j9/k4+HNleTJPFjyJXoTxlVikOpDIu5+d3fTpSp3rPGrp4S7yF5sf85dn3bHVyib8MiKhaK/Ky1HSLiksDW+5oQmO/axLy7QsL2Y+ARu9UkOJ//STIJ2JogUwScWnrv51wir++kXvTFyahv8YZXfsJ0h/8ZMYAzEbBRroD2wdveuAfV+AbJ7R8yvD0ns9d7ChBQw4ViQaRjiHQTFR674Vphupfe/LtC89jO3878QxTqFhvzB0ycyeadw0RoiH0w5DgGCAYwLNjsKlSdOCPn0sRraT8vi9iv+Z0PgZvTJs9kRW+jrWSbDw2ys87B5HLQkLwmsxe/ZNoID2DbWn/77AEOCtHgkp6Ov0I9auqtbx3mTRP19HpnLvHrZSBz2Srq1WwWN0tI+akYEtdY86UCc8SCz9ZXvpa5MBUTUnXIvCVe3PXOvwpzIui37soLkMRuYrF5kOMiakTkMsCQ8tbrVKaSSbi2vMLzNRkn9FmUPbbG1lhQhdjnZ0OVQbytncTqcTw3LrqzBamvlwWk+gfa1xHcbk8CrRz825hxpqWkNL8gUr4A7jG4OyIL1HWHXcZzXYWjGhm04HScejUt6uB8TdlPLqck=
-  app: skillcalculator
-  domain: mitium
-  on:
-    repo: ununseptium/skill-calculator
+  provider: azure_web_apps
+  username: azure_deployment_user
+  password: azure_deployment_password
+  site: azure_deployment_sitename
