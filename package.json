@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/ununseptium/skill-calculator.git"
   },
+  "Dependencies": {
+    "express": "^2.5.11"
+  },
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0",
@@ -22,6 +25,7 @@
     "jshint": "^2.8.0"
   },
   "scripts": {
+    "start": "node app",
     "postinstall": "gulp test"
   }
 }
