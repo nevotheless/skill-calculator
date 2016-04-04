@@ -1,7 +1,11 @@
 language: node_js
 node_js:
-    - "5"
-    - "4"
+- '5'
+- '4'
 before_script:
-    - npm install -g gulp
+- npm install -g gulp
 script: gulp test
+deploy:
+  provider: heroku
+  api_key:
+    secure: KCNOTNB9bXO0gbHckWWfJ5Zc6xhmWWmKvrjavpotGNe9iSsf4XtvLtHPGCWnNnHUmoTvuKS0ynMS7dZULhPcwEWAcCm2OP8mmD3m8+MzIRXQIUF8EXz4n9soeHiJ79HljMp6yHT7xUZPpmbEwtkVVqes5MX97P3pJZnMg9pA6MRcsg/mlq/7AiysBYUORwtPu0nmOfB/Rx+zuW1Od5llRzJYGwj5LGOrchJr9wML6/1q3M070IIo66cKC+o1ftS4sDUYa4MmiXGiphgxFpPZ/LHODbtHubYaBGqGOfEUEoU00K1MEbnbFsZZnhtmn9LIa4SFffi2vFTwaZqFExuDVE7EuxzVq0RKrBFOgKqj3r4S4JEBvNp4iwfao6QCIBMOecQUGlTLWGE/4p7yUBBsMevrfRA6gc3oD+O1s5Ni6VIIQI0Zdtj960Jt7C0WkwPe98UlYyq5bWaDEFO0Z2p+YFc5w4FmwndvSe65O++k3uWeh9+dEkJ2jYvVl6AH6K2AlKPrxyPwRB/7/Dgb7U2/Q0/BawDShiT0yvgEMgtD042tmZruFUzMCy+wNVQjDYVrz5Q0Kw9sWWaebYy3jTX2UVS+tvmqb0yDlFGwXot7dt58J7Itx1KCXFQFwRG/MojTzlKTsigP+O8PzmM7LjmEnDgZjMZvR9mtEcgYowj8FXQ=
