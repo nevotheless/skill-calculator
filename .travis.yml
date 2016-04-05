@@ -5,8 +5,7 @@ node_js:
 before_script:
 - npm install -g gulp
 script: gulp test
-deploy:
-  provider: azure_web_apps
-  username: azure_deployment_user
-  password: azure_deployment_password
-  site: azure_deployment_sitename
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy --email ${FIREBASE_USERNAME} --password ${FIREBASE_PASSWORD}
