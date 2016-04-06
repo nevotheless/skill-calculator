@@ -1,0 +1,21 @@
+{
+  "name": "skill-calculator",
+  "scripts": {
+  },
+  "env": {
+    "LOG_LEVEL": {
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
