@@ -1,5 +1,6 @@
 {
   "name": "skill-calculator",
+  "description": "Skill Calculator for Tom Clancy's The Division",
   "scripts": {
   },
   "env": {
