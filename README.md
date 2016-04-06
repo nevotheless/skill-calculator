@@ -28,4 +28,4 @@ In case you have questions or need support you can either [open an issue ticket]
 - [nevotheless](https://www.reddit.com/user/nevotheless) thats me, the guy who continued this project
 - [try4ce](https://www.reddit.com/user/try4ce) did some css corrections
 - [iamswain](https://www.reddit.com/user/iamswain) helped doing the icons
-- [Angier](https://www.reddit.com/user/angier) is just the awesome guy :heart:
+- [Angier](https://www.reddit.com/user/angier85) is just the awesome guy :heart:
