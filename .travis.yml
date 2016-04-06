@@ -3,8 +3,7 @@ node_js:
 - '5'
 - '4'
 script: gulp test
-install:
-- npm install -g firebase-tools
-- npm install
-after_success:
-- firebase deploy --email ${FIREBASE_USERNAME} --password ${FIREBASE_PASSWORD}
+deploy:
+  provider: heroku
+  api_key:
+    secure: iqHWspigPLpVerAXhmjPRRw/PalSx9ITNL02+jqp+30G/o8D6CLnKbk+Qin87GUXHvUq50u82Hoi+DPf5953sxqJTOYtrmuabpJyRTJqhEE+c5A/F0i6lWdHbDqYwTxR7N9HnZ/Mbkv/ZglztXU19hf945Ow7FGe9+Z5aoy78FwlOhNqWTx1hrDuuq1YIgILCJN2SJTJUGrfFBXKcD206tHHNaCqtgLaI8YJlIZd2rIAaFY5Fc6R4sI7a25diZNFkanixzZAPDtUr8IpZbM/xtsyxtnZOAZjVHh10oDr6YBouTkuhNzCfiZDrwNct33ZFt159xIxzIBRKVpOHmX4BPmD1GMt+qb89YuF3TfXXHO2ajEf7lW1yVCYb1gPZzEIy1Ufx2aSXSNoqV9cjItsxbmCbRqjDCKNA90qgJrU8OTtNwl/J/waBk5ZaWinM7ZL6fOHLJhzFLZl75gRxrqm+CgwgMyyU5xxSUHtQP6a5gRHjI6sbf22ntUF3PRsPOW2b18gLRyOEx3zLNtdwSMKdTen8Xo8S2l8dWsbTN6bEL4SYCZnEltXEdgwk3Ynn0a+X/jVIR168gVJOPAAeC8lBVn5UWlkNskmUS+cTF01thzOgUPPyigi5Qw0oFnJvBGY9Nvs5Ik6sb5Pyk/dDTbn5l0apCGhCPmRiQscgdPZwOY=
