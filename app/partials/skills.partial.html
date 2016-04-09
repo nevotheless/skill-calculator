@@ -1,4 +1,18 @@
-<div class="tabContainerSkills">
+<div class="tabContainerSkills" ng-controller="skillCtrl">
+    {{something}}
+    <div class="skills medicalSkills">
+        <table>
+            <tr>
+                <td>
+                    <div ng-repeat="(key, value) in medical" class="skillBox" ng-mouseover="changeContext('medical',key)">
+                        {{key}}
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
     <div class="noticeSkills" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game you can choose 2 skills and 1 signature skill.</div>
     <table>
         <tr>
@@ -114,9 +128,9 @@
                                     <div id="med1" class="infoSkillIcon"></div>
                                 </td>
                                 <td height="50px" width="50%" style="line-height: 29px;padding-top: 8px;">
-                                    <span style="font-size: 30px;" id="infoSkillName">Pulse</span>
+                                    <span style="font-size: 30px;" id="infoSkillName">{{skill.name}}</span>
                                     <br>
-                                    <font size="15px"><span class="available">Available</span></font>
+                                    <span class="available">Available</span>
                                 </td>
                                 <td height="50px" width="50%" style="font-size: 30px;line-height: 29px;padding-top: 8px;text-align:right;">
                                     (?)
@@ -134,23 +148,15 @@
                                 <td width="20%" style="color:orange;">Master</td>
                             </tr>
                             <tr>
-                                <td id="modBoxes">
-                                    <div class="modBox mod0 boxToggle" id="mod0"></div>
-                                </td>
-                                <td>
-                                    <div class="modBox mod1" id="mod1"></div>
-                                    <div class="modBox mod2" id="mod2"></div>
-                                    <div class="modBox mod3" id="mod3"></div>
-                                </td>
-                                <td>
-                                    <div class="modBox mod4" id="sig"></div>
+                                <td colspan="3" id="modBoxes">
+                                    <div ng-repeat="(key, value) in mods" class="modBox mod1" id="mod1" ng-mouseover="changeSubContext(key)"></div>
                                 </td>
                             </tr>
                         </table>
                         <div style="overflow-y: scroll;overflow-x: hidden;height: 330px;margin-top: 20px;padding-right:15px;">
-                            <span id="infoDescTitle" style="margin-bottom: 0px;color:orange;">Base: Pulse</span>
+                            <span id="infoDescTitle" style="margin-bottom: 0px;color:orange;">{{mod.type}}: {{mod.name}}</span>
                             <br>
-                            <span id="infoDesc">Sends out recon pulse that marks hostiles and allies through walls and covers.</span>
+                            <span id="infoDesc">{{mod.description}}</span>
                             <br>
                             <!--                             <hr style="margin-bottom: 5px"> -->
                               <span class="req">
@@ -180,30 +186,10 @@
                                     <td width="30%">Total</td>
                                 </tr>
                                 </thead>
-                                <tr>
-                                    <td>Range</td>
-                                    <td>60.0 m</td>
-                                    <td>60.0 m</td>
-                                </tr>
-                                <tr>
-                                    <td>Duration</td>
-                                    <td>25.0 s</td>
-                                    <td>25.0 s</td>
-                                </tr>
-                                <tr>
-                                    <td>Critical Hit Chance</td>
-                                    <td>10.0 %</td>
-                                    <td>10.0 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Critical Hit Damage</td>
-                                    <td>25.0 %</td>
-                                    <td>25.0 %</td>
-                                </tr>
-                                <tr>
-                                    <td>Cooldown</td>
-                                    <td>60.0 s</td>
-                                    <td>60.0 s</td>
+                                <tr ng-repeat="data in mod.attr">
+                                    <td>{{data.name}}</td>
+                                    <td>{{data.base}}{{data.unit}}</td>
+                                    <td>[missing data]</td>
                                 </tr>
                             </table>
                         </div>
