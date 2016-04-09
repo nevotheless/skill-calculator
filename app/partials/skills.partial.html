@@ -1,18 +1,4 @@
 <div class="tabContainerSkills" ng-controller="skillCtrl">
-    {{something}}
-    <div class="skills medicalSkills">
-        <table>
-            <tr>
-                <td>
-                    <div ng-repeat="(key, value) in medical" class="skillBox" ng-mouseover="changeContext('medical',key)">
-                        {{key}}
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-
     <div class="noticeSkills" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game you can choose 2 skills and 1 signature skill.</div>
     <table>
         <tr>
@@ -27,26 +13,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div class="skillBox boxToggle" id="med1">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="skillBox" id="med2">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="skillBox" id="med3">
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="skillBox med" id="medSig">
-                                    </div>
+                                    <div ng-repeat="(key, value) in medical" class="skillBox" ng-class="getSkillIconClass('medical',key)" ng-mouseover="changeContext('medical',key)"></div>
                                 </td>
                             </tr>
                         </table>
