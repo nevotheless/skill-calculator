@@ -1,0 +1,341 @@
+{
+  "skills": {
+    "medical": [
+      {
+        "name": "Pulse",
+        "description": "Sends out a recon pulse that marks hostiles and allies through walls and covers.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Pulse",
+            "type": "Base",
+            "description": "Sends out a recon pulse that marks hostiles and allies through walls and covers.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "12.8",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "25.6",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55.5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Recon Pack",
+            "type": "Mod",
+            "description": "The pulse has an increased range and is capable of locating nearby loot containers.",
+            "req": "Quarantine",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "80",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "17.5",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "12.8",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "25.6",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55.5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Scrambler",
+            "type": "Mod",
+            "description": "The pulse protects the user and allies from hostile pulse scans.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "6.4",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "16.0",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55.5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Tactical Scanner",
+            "type": "Mod",
+            "description": "Damage is increased when attacking any hostile targets identified by the pulse scan.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "16",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "32",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "64.8",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Threat Detector",
+            "type": "Master",
+            "description": "The pulse gives an early warning of nearby hostiles and identifies if the user has been scanned by a hostile pulse.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "12.8",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "25.6",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55.5",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "First Aid",
+        "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+        "req": "",
+        "mods": [
+          {
+            "name": "First Aid",
+            "type": "Base",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "First Aid",
+            "type": "Base",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "First Aid",
+            "type": "Base",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "First Aid",
+            "type": "Base",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "First Aid",
+            "type": "Base",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
