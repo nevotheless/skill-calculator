@@ -207,9 +207,9 @@
             ]
           },
           {
-            "name": "First Aid",
-            "type": "Base",
-            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "name": "Defibrillator",
+            "type": "Mod",
+            "description": "The device can revive downed allies and grant them a portion of their normal health.",
             "attr": [
               {
                 "name": "Self Heal",
@@ -239,9 +239,73 @@
             ]
           },
           {
-            "name": "First Aid",
-            "type": "Base",
-            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "name": "Overdose",
+            "type": "Mod",
+            "description": "The device heals targets more efficiently, and may even extend the target's health beyond its normal rating.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "10078",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "10078",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "2",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Booster Shot",
+            "type": "Mod",
+            "description": "Temporarily increases damage for the affected targets in additionto the normal healing effect.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "5912",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "8062",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41.7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Extended Service",
+            "type": "Master",
+            "description": "Extends the duration of the effect, giving allies more time to approach the device.",
             "attr": [
               {
                 "name": "Self Heal",
@@ -269,11 +333,166 @@
                 "unit": "s"
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Support Station",
+        "description": "Drops a support station that heals allies and can be used to revive downed allies.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Support Station",
+            "type": "Base",
+            "description": "Drops a support station that heals allies and can be used to revive downed allies.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "403",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83.3",
+                "unit": "s"
+              }
+            ]
           },
           {
-            "name": "First Aid",
+            "name": "Life Support",
+            "type": "Mod",
+            "description": "Drops a revival station that automatically revives any allies who are downed within the affected area.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "6",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "403",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83.3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Immunizer",
+            "type": "Mod",
+            "description": "Drops a recovery station that removes Status Effects and makes allies immune while within the affected area.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "403",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "24",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83.3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Ammo Cache",
             "type": "Base",
-            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "description": "While close to the device, allies regain their ammo as they reload, and skill cooldown recovery is faster.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "322",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83.3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Discharge",
+            "type": "Master",
+            "description": "When the device is disabled, nearby aliies receive immediate healing.",
             "attr": [
               {
                 "name": "Self Heal",
@@ -301,35 +520,42 @@
                 "unit": "s"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Recovery Link",
+        "description": "Heals and cures the users and nearby allies. Revives downed allies within range. Can \"overheal\" beyond maximum health.",
+        "req": "",
+        "mods": [
           {
-            "name": "First Aid",
-            "type": "Base",
+            "name": "Recovery Link",
+            "type": "Signature",
             "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
             "attr": [
               {
-                "name": "Self Heal",
-                "base": "7390",
+                "name": "Healing Rate",
+                "base": "25279",
                 "unit": "HP"
               },
               {
-                "name": "Ally Heal",
-                "base": "7390",
+                "name": "Instant Heal",
+                "base": "7222",
                 "unit": "HP"
               },
               {
-                "name": "Range",
-                "base": "3",
+                "name": "Duration",
+                "base": "5",
                 "unit": "m"
               },
               {
-                "name": "Deploy Range",
+                "name": "Range",
                 "base": "40",
                 "unit": "m"
               },
               {
                 "name": "Cooldown",
-                "base": "41.7",
+                "base": "833",
                 "unit": "s"
               }
             ]
