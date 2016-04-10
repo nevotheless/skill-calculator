@@ -2,14 +2,118 @@
 
 /** MEDICAL ICONS **/
 
+// Pulse Icons
 .icon-Pulse {
 }
+.icon-Pulse-0 {}
+.icon-Pulse-1 {background-position: -80px 0px;}
+.icon-Pulse-2 {background-position: -160px 0px;}
+.icon-Pulse-3 {background-position: -240px 0px;}
+.icon-Pulse-4 {background-position: -320px 0px;}
+
+// First Aid
 .icon-First-Aid {
+  background-position: -2px -102px;
+}
+.icon-First-Aid-0 {background-position: 0px -80px;}
+.icon-First-Aid-1 {background-position: -80px -80px;}
+.icon-First-Aid-2 {background-position: -160px -80px;}
+.icon-First-Aid-3 {background-position: -240px -80px;}
+.icon-First-Aid-4 {background-position: -320px 0px;}
+
+// Support Station
+.icon-Support-Station {
   background-position: -2px -202px;
 }
-.icon-Support-Station {
+.icon-Support-Station-0 {background-position: 0px -160px;}
+.icon-Support-Station-1 {background-position: -80px -160px;}
+.icon-Support-Station-2 {background-position: -160px -160px;}
+.icon-Support-Station-3 {background-position: -240px -160px;}
+.icon-Support-Station-4 {background-position: -320px 0px;}
+
+// Recovery Link
+.icon-Recovery-Link {
   background-position: -2px -302px;
+  background-color: rgba(111,196,74,.2) !important;
 }
-.icon-recovery-link {
+.icon-Recovery-Link-0 {}
+.icon-Recovery-Link-1 {}
+.icon-Recovery-Link-2 {}
+.icon-Recovery-Link-3 {}
+.icon-Recovery-Link-4 {}
+
+/** TEC ICONS **/
+
+// Sticky Bomb
+.icon-Sticky-Bomb {
   background-position: -2px -402px;
+}
+.icon-Sticky-Bomb-0 {background-position: 0px -320px;}
+.icon-Sticky-Bomb-1 {background-position: -80px -320px;}
+.icon-Sticky-Bomb-2 {background-position: -160px -320px;}
+.icon-Sticky-Bomb-3 {background-position: -240px -320px;}
+.icon-Sticky-Bomb-4 {background-position: -320px 0px;}
+
+// Icon Turret
+.icon-Turret {
+  background-position: -2px -502px;
+}
+.icon-Turret-0 {background-position: 0px -400px;}
+.icon-Turret-1 {background-position: -80px -400px;}
+.icon-Turret-2 {background-position: -160px -400px;}
+.icon-Turret-3 {background-position: -240px -400px;}
+.icon-Turret-4 {background-position: -320px 0px;}
+
+// Seeker Mine
+.icon-Seeker-Mine {
+  background-position: -2px -602px;
+}
+.icon-Seeker-Mine-0 {background-position: -0px -480px;}
+.icon-Seeker-Mine-1 {background-position: -80px -480px;}
+.icon-Seeker-Mine-2 {background-position: -160px -480px;}
+.icon-Seeker-Mine-3 {background-position: -240px -480px;}
+.icon-Seeker-Mine-4 {background-position: -320px 0px;}
+
+// Tactical Link
+.icon-Tactical-Link {
+  background-position: -2px -702px;
+  background-color: rgba(255,202,87,.2) !important;
+}
+
+/** SEC ICONS **/
+
+// Ballistic-Shield
+.icon-Ballistic-Shield {
+  background-position: -2px -802px;
+}
+.icon-Ballistic-Shield-0 {background-position: -0px -640px;}
+.icon-Ballistic-Shield-1 {background-position: -80px -640px;}
+.icon-Ballistic-Shield-2 {background-position: -160px -640px;}
+.icon-Ballistic-Shield-3 {background-position: -240px -640px;}
+.icon-Ballistic-Shield-4 {background-position: -320px 0px;}
+
+// Smart Cover
+.icon-Smart-Cover {
+  background-position: -2px -902px;
+}
+.icon-Smart-Cover-0 {background-position: -0px -720px;}
+.icon-Smart-Cover-1 {background-position: -80px -720px;}
+.icon-Smart-Cover-2 {background-position: -160px -720px;}
+.icon-Smart-Cover-3 {background-position: -240px -720px;}
+.icon-Smart-Cover-4 {background-position: -320px 0px;}
+
+// Mobile Cover
+.icon-Mobile-Cover {
+  background-position: -2px -1002px;
+}
+.icon-Mobile-Cover-0 {background-position: -0px -800px;}
+.icon-Mobile-Cover-1 {background-position: -8px -800px;}
+.icon-Mobile-Cover-2 {background-position: -160px -800px;}
+.icon-Mobile-Cover-3 {background-position: -240px -800px;}
+.icon-Mobile-Cover-4 {background-position: -320px 0px;}
+
+// Survivor Link
+.icon-Survivor-Link {
+  background-position: -2px -1102px;
+  background-color: rgba(64, 132, 197, .2) !important;
 }
