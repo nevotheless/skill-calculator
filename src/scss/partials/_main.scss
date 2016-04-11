@@ -2,4 +2,16 @@
   .hideSkillHead {
     visibility: hidden;
   }
+  .hidden {
+    display: none;
+  }
+  .req-tec {
+    background-position: -50px 0px;
+  }
+  .req-med {
+    background-position: -0px 0px;
+  }
+  .req-sec {
+    background-position: -100px 0px;
+  }
 }

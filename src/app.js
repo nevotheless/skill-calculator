@@ -1,6 +1,7 @@
 require('angular')
 require("angular-route")
 
+// Routing
 var app = angular.module("skill-calculator", ['ngRoute']).
 config(function($routeProvider, $locationProvider) {
     $locationProvider.hashPrefix('!')
@@ -11,6 +12,61 @@ config(function($routeProvider, $locationProvider) {
     otherwise( { redirectTo: "/skills" })
 })
 
+// Talents Controller
+app.controller('talentsCtrl', function($scope, $http) {
+
+    $http.get('data/talents.json')
+        .then(function(res){
+            $scope.medical = res.data.talents.medical;
+            $scope.tec     = res.data.talents.tec;
+            $scope.sec     = res.data.talents.sec;
+
+            // init
+            $scope.talent = $scope.medical[0];
+            $scope.tree   = 'Medical';
+
+            // console.log($scope.medical);
+
+            $scope.changeTalentContext = function(tree, talent) {
+                // console.log(tree);
+                // console.log(talent);
+                $scope.tree = tree;
+                $scope.talent = talent;
+                // console.log($scope.talent.req);
+            };
+            $scope.getTreeIcon = function(tree) {
+                if(tree == "Security")
+                    return "req-sec";
+                else if(tree == "Medical")
+                    return "req-med";
+                else if(tree == "Tech")
+                    return "req-tec";
+            };
+
+            $scope.getHiddenState = function(req) {
+                if(req == "")
+                {
+                    return "hidden";
+                }
+                //console.log(req);
+            };
+            $scope.getTalentIconClass = function(mode, talent) {
+                if(mode == 0) {
+                    var ret = "icon-" + talent.name.replace(/\s/g, '-');
+                } else {
+                    // console.log(talent);
+                    var ret = "icon-" + talent.replace(/\s/g, '-') + '-Header';
+                    //console.log(ret);
+                }
+                //console.log(talent);
+                return ret;
+
+            }
+        });
+
+});
+
+// Skills Controller
 app.controller('skillCtrl', function($scope, $http) {
 
     $http.get('data/skills.json')
@@ -20,7 +76,7 @@ app.controller('skillCtrl', function($scope, $http) {
             $scope.sec     = res.data.skills.sec;
 
             //$scope.context = res.data[medical][skill1];
-            //console.log($scope.context);
+            //console.log($scope.medical);
 
             // initialize
             $scope.skill = res.data.skills.medical[0];

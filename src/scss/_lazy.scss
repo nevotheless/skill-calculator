@@ -775,6 +775,7 @@ td {
 }
 
 .talentBox {
+  display: inline-block;
   margin-bottom: 50px;
   margin-right: 20px;
   width: 65px;
@@ -788,6 +789,9 @@ td {
   background-image: $talentSprite;
   background-size: 520px;
   transition: 0s;
+}
+.talentBox:nth-child(even) {
+  margin-right: 0px !important;
 }
 
 .talentBox.boxToggle,
