@@ -1,0 +1,138 @@
+<div class="tabContainerSkills" ng-controller="skillCtrl">
+    <div class="noticeSkills" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game you can choose 2 skills and 1 signature skill.</div>
+    <table>
+        <tr>
+            <td>
+                <div class="skillsHover">
+                    <div class="treeName treeNameMedical">
+                        <center>
+                            <div class="treeIconMed"></div>MEDICAL
+                        </center>
+                    </div>
+                    <div class="skills medicalSkills">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in medical" class="skillBox" ng-class="getSkillIconClass('medical',key)" ng-click="changeContext('medical',key)"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="skillsHover">
+                    <div class="treeName">
+                        <center>
+                            <div class="treeIconTech"></div>TECH
+                        </center>
+                    </div>
+                    <div class="skills techSkills">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in tec" class="skillBox" ng-class="getSkillIconClass('tec',key)" ng-click="changeContext('tec',key)"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="skillsHover">
+                    <div class="treeName">
+                        <center>
+                            <div class="treeIconSec"></div>SECURITY
+                        </center>
+                    </div>
+                    <div class="skills secSkills">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in sec" class="skillBox" ng-class="getSkillIconClass('sec',key)" ng-click="changeContext('sec',key)"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td id="infoBig">
+                <div class="infoHover">
+                    <div class="infoName">
+                        <table>
+                            <tr>
+                                <td rowspan="2">
+                                    <div ng-class="skillIconClass" class="infoSkillIcon"></div>
+                                </td>
+                                <td height="50px" width="50%" style="line-height: 29px;padding-top: 8px;">
+                                    <span style="font-size: 30px;" id="infoSkillName">{{skill.name}}</span>
+                                    <br>
+                                    <span class="available">Available</span>
+                                </td>
+                                <td height="50px" width="50%" style="font-size: 30px;line-height: 29px;padding-top: 8px;text-align:right;">
+                                    (?)
+                                    <br>
+                                    <font size="15px"><span class="skillPower">Skill Power</span></font>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="infoBox">
+                        <table width="100%" class="modsTable">
+                            <tr height="50px" ng-class="isSignature(1, skill.name)">
+                                <td width="20%" style="color:orange;"><span class="skillModBase">Base</span></td>
+                                <td width="60%" style="color:orange;">Modifications</td>
+                                <td width="20%" style="color:orange;">Master</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" id="modBoxes" ng-class="isSignature(1, skill.name)">
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in mods" ng-class="[getModIconClass(skill.name, key), isSignature(0, skill.name)]" class="modBox mod1" id="mod1" ng-mouseover="changeSubContext(key)"></div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div style="overflow-y: scroll;overflow-x: hidden;height: 330px;margin-top: 20px;padding-right:15px;">
+                            <span id="infoDescTitle" style="margin-bottom: 0px;color:orange;">{{mod.type}}: {{mod.name}}</span>
+                            <br>
+                            <span id="infoDesc">{{mod.description}}</span>
+                            <br>
+                            <!--                             <hr style="margin-bottom: 5px"> -->
+                              <span class="req">
+                                 <span style="margin-bottom: 0px;color:orange;">Requirement</span>
+                                 <br>
+                                 <table>
+                                    <tr>
+                                       <td rowspan="2">
+                                          <div class="reqIcon"></div>
+                                       </td>
+                                       <td valign="bottom"><span class="reqTree">Medical Tree Upgrade</span>
+                                       <br>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top"><span class="reqDetail">Test</span></td>
+                                 </tr>
+                              </table>
+                           </span>
+                            <span style="margin-bottom: 0px;color:orange;">Attributes</span>
+                            <br>
+                            <table class="attrTable" width="100%">
+                                <thead class="attrTableHead">
+                                <tr>
+                                    <td width="40%">Type</td>
+                                    <td width="30%">Base</td>
+                                    <td width="30%">Total</td>
+                                </tr>
+                                </thead>
+                                <tr ng-repeat="data in mod.attr">
+                                    <td>{{data.name}}</td>
+                                    <td>{{data.base}}{{data.unit}}</td>
+                                    <td>[missing data]</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </td> <!-- infobig -->
+        </tr>
+    </table>
+</div>

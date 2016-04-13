@@ -1,0 +1,154 @@
+{
+  "talents": {
+    "medical": [
+      {
+        "name":"Adrenaline",
+        "description":"Use a medkit when not at full health to receive an overheal",
+        "req":"Decontamination Unit",
+        "benefits": ["Overheal", "Affects Agent"]
+      },
+      {
+        "name":"Triage",
+        "description":"Heal an ally with a skill to reduce skill cooldowns by 15%",
+        "req":"Decontamination Unit",
+        "benefits": ["Cooldown Reduction", "Affects Group"]
+      },
+      {
+        "name":"Shock and Awe",
+        "description":"Suppress a hostile to increase movement speed by 25% for 10 seconds",
+        "req":"Decontamination Unit",
+        "benefits":["Movement Speed", "Affects Agent"]
+      },
+      {
+        "name":"Battle Buddy",
+        "description":"Revive a downed agent to reduce incoming damage by 50% for 10 seconds for both players",
+        "req":"Decontamination Unit",
+        "benefits":["Damage Reduction", "Affects Group"]
+      },
+      {
+        "name":"Critical Save",
+        "description":"Use a medkit during low health to increase damage resistance by 40% for 10 seconds",
+        "req":"Counselling",
+        "benefits":["Damage Resistance", "Affects Agent"]
+      },
+      {
+        "name":"Shrapnel",
+        "description":"Applying Bleed to any target triggers a 30% chance to apply the effect to all targets within 10m",
+        "req":"Counselling",
+        "benefits":["Bleed Chance", "Affects Hostiles"]
+      },
+      {
+        "name":"Combat Medic",
+        "description":"Use a medkit near allies to heal group members and proxies within 20m by 40%",
+        "req":"",
+        "benefits":["Healing", "Affects Group"]
+      },
+      {
+        "name":"Strike Back",
+        "description":"Reach low health to reduce active skill cooldowns by 20%",
+        "req":"",
+        "benefits":["Cooldown Reduction", "Affects Agent"]
+      }
+    ],
+    "tec": [
+      {
+        "name":"Tactical Advance",
+        "description":"Complete a cover to cover move to increase weapon damage by 2% per meter covered for 10 seconds",
+        "req":"Central Heating",
+        "benefits":["Weapon Damage", "Affects Agent"]
+      },
+      {
+        "name":"Demolition Expert",
+        "description":"Kill a hostile with an explosion to increase explosion damage by 40% for 15 seconds",
+        "req":"Central Heating",
+        "benefits":["Explosion Damage", "Affects Hostiles"]
+      },
+      {
+        "name":"Police Up",
+        "description":"Kill a hostile with any skill for a 25% chance of auto-refilling all ammo types to capacity",
+        "req":"SatComms",
+        "benefits":["Ammo Refill Chance", "Affects Agent"]
+      },
+      {
+        "name":"Fear Tactics",
+        "description":"Applying Shock to any target triggers a 30% chance to apply the effect to all targets within 10m",
+        "req":"SatComms",
+        "benefits":["Shock Chance", "Affects Hostiles"]
+      },
+      {
+        "name":"Evasive Action",
+        "description":"During a cover to cover move incoming damage is reduced by 30%",
+        "req":"Recalibration",
+        "benefits":["Damage Reduction", "Affects Agent"]
+      },
+      {
+        "name":"Tech Support",
+        "description":"Kill a hostile while any skill is deployed to extend any active skills duration by 10%",
+        "req":"Recalibration",
+        "benefits":["Skill Duration", "Affects Agent"]
+      },
+      {
+        "name":"Wildfire",
+        "description":"Applying Burn to any target triggers a 30% chance to apply the effect to all targets within 10m",
+        "req":"Recharge Center",
+        "benefits":["Burn Chance", "Affects Hostiles"]
+      },
+      {
+        "name":"Death by Proxy",
+        "description":"Destroy a hostile's deployed skill to increase skill power by 20% for 30 seconds",
+        "req":"Recharge Center",
+        "benefits":["Disruption", "Affects Hostiles"]
+      }
+    ],
+    "sec": [
+      {
+        "name":"Steady Hands",
+        "description":"Enter any cover to reduce recoil by 25% for 10 seconds",
+        "req":"Procurement Team",
+        "benefits":["Recoil Reduction", "Affects Agent"]
+      },
+      {
+        "name":"On the Move",
+        "description":"Kill a hostile while moving to reduce incoming damage by 30% for 10 seconds",
+        "req":"Procurement Team",
+        "benefits":["Damage Reduction", "Affects Agent"]
+      },
+      {
+        "name":"Precision",
+        "description":"Headshot a hostile to pulse them for 10 seconds",
+        "req":"Guard Posts",
+        "benefits":["Headshot Damage", "Affects Hostiles"]
+      },
+      {
+        "name":"Chain Reaction",
+        "description":"Damage multiple hostiles with an explosion to apply 40% more damage from the blast",
+        "req":"Guard Posts",
+        "benefits":["Explosion Damage", "Affects Hostiles"]
+      },
+      {
+        "name":"Desperate Times",
+        "description":"Reach low health to increase blind fire accuracy by 20%",
+        "req":"Shooting Range",
+        "benefits":["Blindfire Accuracy", "Affects Agent"]
+      },
+      {
+        "name":"Stopping Power",
+        "description":"Suppress a hostile to increase headshot damage by 25% for 10 seconds",
+        "req":"Shooting Range",
+        "benefits":["Headshot Damage", "Affects Hostiles"]
+      },
+      {
+        "name":"Repo Reaper",
+        "description":"Kill a hostile with the sidearm to receive 1 magazine for your primary weapon",
+        "req":"Canine Unit",
+        "benefits":["Ammo", "Affects Agent"]
+      },
+      {
+        "name":"One is None",
+        "description":"Headshot a hostile to have a 50% chance of not consuming a the bullet",
+        "req":"Canine Unit",
+        "benefits":["Bullet Consumption", "Affects Hostiles"]
+      }
+    ]
+  }
+}

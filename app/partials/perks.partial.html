@@ -1,0 +1,84 @@
+<div class="tabContainerPerks" ng-controller="perksCtrl">
+    <div class="noticePerks" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game perks are passive. You just have to unlock them.</div>
+    <table>
+        <tr>
+            <td>
+                <div class="perksHover">
+                    <div class="perTreeName">
+                        <center>
+                            <div class="treeIconMed"></div>MEDICAL
+                        </center>
+                    </div>
+                    <div class="perks medicalSkills">
+                        <div ng-repeat="perk in medical" ng-class="getPerkIconClass(0, perk)" ng-mouseover="changePerkContext('Medical', perk)" class="perkBox per1" id="perMed1"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="perksHover">
+                    <div class="perTreeName">
+                        <center>
+                            <div class="treeIconTech"></div>TECH
+                        </center>
+                    </div>
+                    <div class="perks techSkills">
+                        <div ng-repeat="perk in tec" ng-class="getPerkIconClass(0, perk)" ng-mouseover="changePerkContext('Tech', perk)" class="perkBox"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="perksHover">
+                    <div class="perTreeName">
+                        <center>
+                            <div class="treeIconSec"></div>SECURITY
+                        </center>
+                    </div>
+                    <div class="perks secSkills">
+                        <div ng-repeat="perk in sec" ng-class="getPerkIconClass(0, perk)" ng-mouseover="changePerkContext('Security', perk)" class="perkBox"></div>
+                    </div>
+                </div>
+            </td>
+            <td id="perInfoBig">
+                <div class="perInfoHover">
+                    <div class="perInfoName">
+                        <table>
+                            <tr>
+                                <td rowspan="2">
+                                    <div class="perInfoPerkIcon" ng-class="getPerkIconClass(1, perk)"></div>
+                                </td>
+                                <td height="50px" width="100%" style="line-height: 29px;padding-top: 8px;">
+                                    <span style="font-size: 30px;" id="perInfoPerkName">{{perk.name}}</span>
+                                    <br>
+                                    <font size="15px">Available</font>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="perInfoBox">
+                        <br>
+                           <span class="perReq">
+                              <span style="margin-bottom: 0px;color:orange;">Requirement</span>
+                              <br>
+                              <table>
+                                 <tr>
+                                    <td rowspan="2">
+                                       <div ng-class="getTreeIcon(tree)" class="reqIcon"></div>
+                                    </td>
+                                    <td valign="bottom"><span class="reqTree">{{tree}} Tree Upgrade</span>
+                                    <br>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top"><span class="reqDetail">{{perk.req}}</span></td>
+                              </tr>
+                           </table>
+                        </span>
+                        <br>
+                        <span style="margin-bottom: 0px;color:orange;">Description</span><br>
+                        <div class="perInfoDesc" style="text-align:justify">{{perk.desc}}</div>
+                    </div>
+                </div>
+            </td> <!-- infobig -->
+        </tr>
+    </table>
+</div>

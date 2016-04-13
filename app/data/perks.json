@@ -1,0 +1,208 @@
+{
+  "perks": {
+    "medical": [
+      {
+        "name":"Medkits",
+        "desc":"Increase Medkit inventory by 1 slot",
+        "req":"Clinic"
+      },
+      {
+        "name":"Protective Measures",
+        "desc":"Increase Virus Protection by 1, gaining access to higher contamination areas.",
+        "req":"Virus Lab"
+      },
+      {
+        "name":"Canned Food",
+        "desc":"Increase Canned Food effect duration by 10 seconds",
+        "req":"Disaster Aid"
+      },
+      {
+        "name":"Supplier",
+        "desc":"Collect canned food, water, energy bar and soda in the Suppy Line once per hour.",
+        "req":"Disaster Aid"
+      },
+      {
+        "name":"Contamination Intel",
+        "desc":"Reveal all contaminated areas on the map",
+        "req":"Quarantine"
+      },
+      {
+        "name":"Medkits",
+        "desc":"Increase Medkit inventory by 1 slot",
+        "req":"Intensive Care"
+      },
+      {
+        "name":"Protective Measures",
+        "desc":"Increase Virus Protection by 1, gaining access to higher contamination areas.",
+        "req":"Hazmat Unit"
+      },
+      {
+        "name":"Hazardous Materials",
+        "desc":"Increase Dark Zone inventory by 1 slot.",
+        "req":"Decontamination Unit"
+      },
+      {
+        "name":"Hazardous Materials",
+        "desc":"Increase Dark Zone inventory by 1 slot.",
+        "req":"Decontamination Unit"
+      },
+      {
+        "name":"Protective Measures",
+        "desc":"Increase Virus Protection by 1, gaining access to higher contamination areas.",
+        "req":"Pharmacy"
+      },
+      {
+        "name":"Credit",
+        "desc":"Increase credit gains by 10%",
+        "req":"Counseling"
+      },{
+        "name":"Medkits",
+        "desc":"Increase Medkit inventory by 1 slot",
+        "req":"Pediatric Care"
+      },{
+        "name":"Talents",
+        "desc":"Increase active talents by 1 slot",
+        "req":"Build all upgrades"
+      }
+    ],
+    "tec": [
+      {
+        "name":"Inventory",
+        "desc":"Increase inventory by 10 slots",
+        "req":"Control Room"
+      },
+      {
+        "name":"Hazardous Materials",
+        "desc":"Increase Dark Zone inventory by 1 slot",
+        "req":"Communications"
+      },
+      {
+        "name":"Division Tech Materials",
+        "desc":"Convert Division Tech crafting materials into other materials at the crafting station",
+        "req":"Division Tech"
+      },
+      {
+        "name":"Engineer",
+        "desc":"Collect electronics (crafting materials) in the Tech Wing once per hour",
+        "req":"?"
+      },
+      {
+        "name":"Soda",
+        "desc":"Increase Soda consumable effect duration by 10 seconds",
+        "req":"Generators"
+      },
+      {
+        "name":"Water",
+        "desc":"Increase Water consumable effect duration by 10 seconds",
+        "req":"Water Purification"
+      },
+      {
+        "name":"Craftsman",
+        "desc":"Collect tools (crafting materials) in the Tech Wing once per hour",
+        "req":"Field Engineering"
+      },
+      {
+        "name":"Energy Bar",
+        "desc":"Increase enerby bar effect duration by 5 seconds",
+        "req":"Central Heating"
+      },
+      {
+        "name":"Rescue Assessment",
+        "desc":"Reveal all Division Tech crafting nodes on the Dark Zone map",
+        "req":"SatComms"
+      },
+      {
+        "name":"Stat Switch",
+        "desc":"Unlock item stat switching at the Recalibration Station",
+        "req":"Recalibration"
+      },
+      {
+        "name":"Dark Zone Funds",
+        "desc":"Increase looted Dark Zone fund gains by 10%",
+        "req":"Recharge Center"
+      },
+      {
+        "name":"Stash",
+        "desc":"Increase stash by 10 slots",
+        "req":"Build all upgrades"
+      }
+    ],
+    "sec": [
+      {
+        "name":"Experienced Agent",
+        "desc":"Increase XP gained from all activities by 10%",
+        "req":"Situation Room"
+      },
+      {
+        "name":"Grenades",
+        "desc":"Increase the grenade inventory by 1 slot",
+        "req":"Armory"
+      },
+      {
+        "name":"Advanced Weaponry",
+        "desc":"Unlock advanced weapons vendorin the Security Wing",
+        "req":"Armory"
+      },
+      {
+        "name":"Combat Veteran",
+        "desc":"Increase XP gained from accolades by 25%",
+        "req":"Barracks"
+      },
+      {
+        "name":"Hazardous Materials",
+        "desc":"Increase Dark Zone inventory by 1 slot",
+        "req":"Dark Zone Ops"
+      },
+      {
+        "name":"Black Market Vendor",
+        "desc":"Unlock Dark Zone fund purchases in the Base of Operations",
+        "req":"Dark Zone Ops"
+      },
+      {
+        "name":"Clothes Vendor",
+        "desc":"Unlock a cloth vendor in the Base of Operations",
+        "req":"Suppy Line"
+      },
+      {
+        "name":"Explosive Bullets",
+        "desc":"Increase Explosive Bullets effect duration by 10 seconds",
+        "req":"Gunsmith"
+      },
+      {
+        "name":"Gunsmith",
+        "desc":"Collect weapon parts (crafting materials) in the Security Wing once per hour",
+        "req":""
+      },
+      {
+        "name":"Scavenger",
+        "desc":"Collect items from the scavenger box in the Security Wing once per hour",
+        "req":"Gunsmith"
+      },
+      {
+        "name":"Incendiary Bullets",
+        "desc":"Increase Incendiary Bullets effect duration by 10 seconds",
+        "req":"Guard Posts"
+      },
+      {
+        "name":"Special Ammo",
+        "desc":"Collect incendiary and explosive bullets (ammo) in the Supply Line ince per hour",
+        "req":"Guard Posts"
+      },
+      {
+        "name":"Shooting Range",
+        "desc":"Train in Marksmanship at the Shooting Range",
+        "req":"Shooting Range"
+      },
+      {
+        "name":"Intel Discovery",
+        "desc":"When completing all Side Missions and Encounters in a Named Zone, reveal all undiscovered Intel on the map",
+        "req":"Canine Unit"
+      },
+      {
+        "name":"Collector",
+        "desc":"Increase Scavenging by 15%",
+        "req":"Build all upgrades"
+      }
+    ]
+  }
+}

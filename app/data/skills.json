@@ -1,0 +1,1626 @@
+{
+  "skills": {
+    "medical": [
+      {
+        "name": "Pulse",
+        "description": "Sends out a recon pulse that marks hostiles and allies through walls and covers.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Pulse",
+            "type": "Base",
+            "description": "Sends out a recon pulse that marks hostiles and allies through walls and covers.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "12,8",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Recon Pack",
+            "type": "Mod",
+            "description": "The pulse has an increased range and is capable of locating nearby loot containers.",
+            "req": "Quarantine",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "80",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "17,5",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "12,8",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Scrambler",
+            "type": "Mod",
+            "description": "The pulse protects the user and allies from hostile pulse scans.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "6,4",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "16",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Tactical Scanner",
+            "type": "Mod",
+            "description": "Damage is increased when attacking any hostile targets identified by the pulse scan.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "16",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "32",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "64,8",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Threat Detector",
+            "type": "Master",
+            "description": "The pulse gives an early warning of nearby hostiles and identifies if the user has been scanned by a hostile pulse.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "60",
+                "unit": "m"
+              },
+              {
+                "name": "Duration",
+                "base": "25",
+                "unit": "s"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "12,8",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Damage",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "First Aid",
+        "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+        "req": "",
+        "mods": [
+          {
+            "name": "First Aid",
+            "type": "Base",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Defibrillator",
+            "type": "Mod",
+            "description": "The device can revive downed allies and grant them a portion of their normal health.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Overdose",
+            "type": "Mod",
+            "description": "The device heals targets more efficiently, and may even extend the target's health beyond its normal rating.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "10078",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "10078",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "2",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Booster Shot",
+            "type": "Mod",
+            "description": "Temporarily increases damage for the affected targets in additionto the normal healing effect.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "5912",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "8062",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Extended Service",
+            "type": "Master",
+            "description": "Extends the duration of the effect, giving allies more time to approach the device.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Support Station",
+        "description": "Drops a support station that heals allies and can be used to revive downed allies.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Support Station",
+            "type": "Base",
+            "description": "Drops a support station that heals allies and can be used to revive downed allies.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "403",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83,3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Life Support",
+            "type": "Mod",
+            "description": "Drops a revival station that automatically revives any allies who are downed within the affected area.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "6",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "403",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83,3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Immunizer",
+            "type": "Mod",
+            "description": "Drops a recovery station that removes Status Effects and makes allies immune while within the affected area.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "403",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "24",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83,3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Ammo Cache",
+            "type": "Base",
+            "description": "While close to the device, allies regain their ammo as they reload, and skill cooldown recovery is faster.",
+            "attr": [
+              {
+                "name": "Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Healing Rate",
+                "base": "322",
+                "unit": "HP/s"
+              },
+              {
+                "name": "Revive Time",
+                "base": "5",
+                "unit": "s"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "5375",
+                "unit": "s"
+              },
+              {
+                "name": "Cooldown",
+                "base": "83,3",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Discharge",
+            "type": "Master",
+            "description": "When the device is disabled, nearby aliies receive immediate healing.",
+            "attr": [
+              {
+                "name": "Self Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Ally Heal",
+                "base": "7390",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recovery Link",
+        "description": "Heals and cures the users and nearby allies. Revives downed allies within range. Can \"overheal\" beyond maximum health.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Recovery Link",
+            "type": "Signature",
+            "description": "Heals all allies within a small radius. The device can be used on location or launched to a distant target.",
+            "attr": [
+              {
+                "name": "Healing Rate",
+                "base": "25279",
+                "unit": "HP"
+              },
+              {
+                "name": "Instant Heal",
+                "base": "7222",
+                "unit": "HP"
+              },
+              {
+                "name": "Duration",
+                "base": "5",
+                "unit": "m"
+              },
+              {
+                "name": "Range",
+                "base": "40",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "833",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tec": [
+      {
+        "name": "Sticky Bomb",
+        "description": "Fires a bomb that sticks to most surfaces and explodes when detonated remotely.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Sticky Bomb",
+            "type": "Base",
+            "description": "Fires a bomb that sticks to most surfaces and explodes when detonated remotely.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "1650",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "5",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "50",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "BFB",
+            "type": "Mod",
+            "description": "Increases the damage and radius of the explosion and may cause targets to bleed.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "2475",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "6,25",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "50",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "90",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Flashbang",
+            "type": "Mod",
+            "description": "The bomb explodes with a non-lethal effect that blinds and disrupts all targets in range.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "165",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "50",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "45",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Proximity Fuse",
+            "type": "Mod",
+            "description": "The bomb explodes automatically when a hostile target is within range.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "1650",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "6,25",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "50",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "45",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Threat Detector",
+            "type": "Master",
+            "description": "",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "1650",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "5",
+                "unit": "m"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "50",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Turret",
+        "description": "Deploys a stationary turret that attacks nearby hostiles until it is destroyed or its battery runs out.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Turret",
+            "type": "Base",
+            "description": "Deploys a stationary turret that attacks nearby hostiles until it is destroyed or its battery runs out.",
+            "attr": [
+              {
+                "name": "Damage",
+                "base": "308",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "13437",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Active Sensor",
+            "type": "Mod",
+            "description": "Increases turret's damage and pulses attacked targets, making them visible to all allies.",
+            "attr": [
+              {
+                "name": "Damage",
+                "base": "377",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "13437",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Dragonbreath",
+            "type": "Mod",
+            "description": "Turret has reduced range but shoots a column of fire.",
+            "attr": [
+              {
+                "name": "Damage",
+                "base": "514",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "12",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "134370",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "69,40",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Zapper",
+            "type": "Mod",
+            "description": "Turret shoots electrical darts that damage and shock multiple targets.",
+            "attr": [
+              {
+                "name": "Damage",
+                "base": "171",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "20",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "134370",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55.5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Scorched Earth",
+            "type": "Master",
+            "description": "Turret explodes when manually disabled, damaging all nearby targets.",
+            "attr": [
+              {
+                "name": "Damage",
+                "base": "308",
+                "unit": "HP"
+              },
+              {
+                "name": "Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "134370",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55.5",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Seeker Mine",
+        "description": "Releases an automated mine that seeks out hostile targets before exploding on proximity.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Seeker Mine",
+            "type": "Base",
+            "description": "Releases an automated mine that seeks out hostile targets before exploding on proximity.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "13437",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "6",
+                "unit": "m"
+              },
+              {
+                "name": "Detection Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "45",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "2016",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "64,80",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Airburst",
+            "type": "Mod",
+            "description": "Upon impact, the mine is launched in the air and releases a cluster of small incendiary explosives.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "4031",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "4",
+                "unit": "m"
+              },
+              {
+                "name": "Detection Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "45",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "2016",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "64,80",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Gas Charge",
+            "type": "Mod",
+            "description": "The mine seeks out and moves between multiple targets, releasing a cloud of disorienting gas on impact.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "0",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "5",
+                "unit": "m"
+              },
+              {
+                "name": "Detection Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "45",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "2016",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,50",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Cluster",
+            "type": "Mod",
+            "description": "Mine separates into smaller pieces that seek out multiple targets simultaneously.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "4031",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "3",
+                "unit": "m"
+              },
+              {
+                "name": "Detection Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "45",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "672",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "64,80",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Seeking-Betty",
+            "type": "Master",
+            "description": "Mine can bounce onto and over low covers, and can move directly towards its target.",
+            "attr": [
+              {
+                "name": "Explosion Damage",
+                "base": "13437",
+                "unit": "HP"
+              },
+              {
+                "name": "Explosion Radius",
+                "base": "6",
+                "unit": "m"
+              },
+              {
+                "name": "Detection Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "45",
+                "unit": "s"
+              },
+              {
+                "name": "Health",
+                "base": "2016",
+                "unit": "HP"
+              },
+              {
+                "name": "Cooldown",
+                "base": "64,80",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tactical Link",
+        "description": "Increases damage and critical hit chance to the user and all nearby allies.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Tactical Link",
+            "type": "Signature",
+            "description": "Increases damage and critical hit chance to the user and all nearby allies.",
+            "attr": [
+              {
+                "name": "Damage Buff",
+                "base": "50",
+                "unit": "%"
+              },
+              {
+                "name": "Critical Hit Chance",
+                "base": "20",
+                "unit": "%"
+              },
+              {
+                "name": "Duration",
+                "base": "12",
+                "unit": "s"
+              },
+              {
+                "name": "Range",
+                "base": "25",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "833",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sec": [
+      {
+        "name": "Ballistic Shield",
+        "description": "Equips a portable Ballistic Shield that absorbs damage. The user can only use their sidearm while the shield is active.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Ballistic Shield",
+            "type": "Base",
+            "description": "Equips a portable Ballistic Shield that absorbs damage. The user can only use their sidearm while the shield is active.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "40312",
+                "unit": "HP"
+              },
+              {
+                "name": "Damage Increase",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Resistance",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Reactive Targeting",
+            "type": "Mod",
+            "description": "Equips a stronger and lighter shield that pulses hostiles who shoot at it.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "60467",
+                "unit": "HP"
+              },
+              {
+                "name": "Damage Increase",
+                "base": "5",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Resistance",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Assault Shield",
+            "type": "Mod",
+            "description": "Equips a shield that grants the users sidearm increased damage, knockback, increased accuracy, and faster reload speed.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "30234",
+                "unit": "HP"
+              },
+              {
+                "name": "Damage Increase",
+                "base": "20",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Resistance",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Kinetic Breaker",
+            "type": "Mod",
+            "description": "Grants the user a small portion of incoming damage as healing",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "40312",
+                "unit": "HP"
+              },
+              {
+                "name": "Damage Increase",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Resistance",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Self-healing Armor",
+            "type": "Master",
+            "description": "After a short time without taking any damage, the shield slowly repairs itself to full health.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "40312",
+                "unit": "HP"
+              },
+              {
+                "name": "Damage Increase",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Resistance",
+                "base": "10",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "41,7",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Smart Cover",
+        "description": "Reinforces a cover, increasing the users damage and decreasing the incoming damage for all allies behind it.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Smart Cover",
+            "type": "Base",
+            "description": "Reinforces a cover, increasing the users damage and decreasing the incoming damage for all allies behind it.",
+            "attr": [
+              {
+                "name": "Damage Resistance",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Buff",
+                "base": "19,2",
+                "unit": "%"
+              },
+              {
+                "name": "Effect Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Trapper",
+            "type": "Mod",
+            "description": "Hostile targets using a reinforced cover deal less damage, while taking increased damage.",
+            "attr": [
+              {
+                "name": "Damage Resistance",
+                "base": "12,8",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Buff",
+                "base": "95,9",
+                "unit": "%"
+              },
+              {
+                "name": "Effect Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Recharger",
+            "type": "Mod",
+            "description": "Allies using a reinforced cover slowly recover their health and get their skill cooldowns decreased.",
+            "attr": [
+              {
+                "name": "Damage Resistance",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Buff",
+                "base": "19,2",
+                "unit": "%"
+              },
+              {
+                "name": "Effect Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "20",
+                "unit": "s"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Concealment",
+            "type": "Mod",
+            "description": "Allies using a reinforced cover are hidden from hostile pulses and have reduced threat. Hostiles shot by allies from behind the cover are pulsed.",
+            "attr": [
+              {
+                "name": "Damage Resistance",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Buff",
+                "base": "19,2",
+                "unit": "%"
+              },
+              {
+                "name": "Effect Range",
+                "base": "6",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Cover Trail",
+            "type": "Master",
+            "description": "Extends the effect so that it lasts for a period of a time after leaving the cover.",
+            "attr": [
+              {
+                "name": "Damage Resistance",
+                "base": "25,6",
+                "unit": "%"
+              },
+              {
+                "name": "Damage Buff",
+                "base": "19,2",
+                "unit": "%"
+              },
+              {
+                "name": "Effect Range",
+                "base": "8",
+                "unit": "m"
+              },
+              {
+                "name": "Lifetime",
+                "base": "30",
+                "unit": "s"
+              },
+              {
+                "name": "Deploy Range",
+                "base": "30",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55,5",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mobile Cover",
+        "description": "Creates a temporary cover for one person, which provides standard cover protection until destroyed.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Mobile Cover",
+            "type": "Base",
+            "description": "Creates a temporary cover for one person, which provides standard cover protection until destroyed.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "107498",
+                "unit": "HP"
+              },
+              {
+                "name": "Weapon Resistance",
+                "base": "20",
+                "unit": "%"
+              },
+              {
+                "name": "Blast Resistance",
+                "base": "25",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "37",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Extension",
+            "type": "Mod",
+            "description": "The cover provides more protection and extends to protect two persons.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "214995",
+                "unit": "HP"
+              },
+              {
+                "name": "Weapon Resistance",
+                "base": "20",
+                "unit": "%"
+              },
+              {
+                "name": "Blast Resistance",
+                "base": "25",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "55",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Blast Shield",
+            "type": "Mod",
+            "description": "The cover is fitted with remote explosives that damage hostiles in front of it when the shield is disabled.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "107498",
+                "unit": "HP"
+              },
+              {
+                "name": "Weapon Resistance",
+                "base": "18",
+                "unit": "%"
+              },
+              {
+                "name": "Blast Resistance",
+                "base": "12,5",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "37",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Countermeasures",
+            "type": "Mod",
+            "description": "While using the cover, the user deals increased damage and becomes immune to pulses.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "80623",
+                "unit": "HP"
+              },
+              {
+                "name": "Weapon Resistance",
+                "base": "20",
+                "unit": "%"
+              },
+              {
+                "name": "Blast Resistance",
+                "base": "25",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "37",
+                "unit": "s"
+              }
+            ]
+          },
+          {
+            "name": "Second Chance",
+            "type": "Master",
+            "description": "When the cover is destroyed by incoming damage, all allies behind the shield recieve temporary damage resistance.",
+            "attr": [
+              {
+                "name": "Health",
+                "base": "107498",
+                "unit": "HP"
+              },
+              {
+                "name": "Weapon Resistance",
+                "base": "20",
+                "unit": "%"
+              },
+              {
+                "name": "Blast Resistance",
+                "base": "25",
+                "unit": "%"
+              },
+              {
+                "name": "Cooldown",
+                "base": "37",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Survivor Link",
+        "description": "Increases damage resistance and speed for the user and nearby allies.",
+        "req": "",
+        "mods": [
+          {
+            "name": "Survivor Link",
+            "type": "Signature",
+            "description": "Increases damage resistance and speed for the user and nearby allies.",
+            "attr": [
+              {
+                "name": "Damage Resistance",
+                "base": "80",
+                "unit": "%"
+              },
+              {
+                "name": "Movement Speed",
+                "base": "30",
+                "unit": "%"
+              },
+              {
+                "name": "Duration",
+                "base": "15",
+                "unit": "s"
+              },
+              {
+                "name": "Range",
+                "base": "25",
+                "unit": "m"
+              },
+              {
+                "name": "Cooldown",
+                "base": "833",
+                "unit": "s"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -137,12 +137,6 @@ hr {
   transition: cubic-bezier(1, 0, 0, 1) 1s;
   /*transform: translate(-50%, -50%) perspective(500px) rotateY(-5deg) scale(.9);*/
 }
-.tabContainerTalents{
-  display: none;
-}
-.tabContainerPerks{
-  display: none;
-}
 table,
 tr,
 td {
@@ -377,7 +371,7 @@ td {
   animation-timing-function: ease;
   animation-iteration-count: 1;
   animation-fill-mode: both;
-  overflow: hidden;
+  overflow: hidden !important;
   opacity: 1;
 }
 .medicalSkills .boxToggle {
@@ -781,6 +775,7 @@ td {
 }
 
 .talentBox {
+  display: inline-block;
   margin-bottom: 50px;
   margin-right: 20px;
   width: 65px;
@@ -794,6 +789,9 @@ td {
   background-image: $talentSprite;
   background-size: 520px;
   transition: 0s;
+}
+.talentBox:nth-child(even) {
+  margin-right: 0px !important;
 }
 
 .talentBox.boxToggle,

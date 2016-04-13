@@ -7,6 +7,8 @@ var gulp = require('gulp'),
     header  = require('gulp-header'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
+    browserify = require('browserify'),
+    vinyl = require('vinyl-source-stream'),
     package = require('./package.json');
 
 
@@ -35,16 +37,11 @@ gulp.task('css', function () {
 });
 
 gulp.task('js',function(){
-  gulp.src('src/js/**/*.js')
-    .pipe(jshint('.jshintrc'))
-    .pipe(jshint.reporter('default'))
-    .pipe(header(banner, { package : package }))
-    .pipe(gulp.dest('app/assets/js'))
-    .pipe(uglify())
-    .pipe(header(banner, { package : package }))
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('app/assets/js'))
-    .pipe(browserSync.reload({stream:true, once: true}));
+    return browserify('./src/app.js')
+        .bundle()
+        .pipe(vinyl('main.js'))
+        .pipe(gulp.dest('./app/assets/js'))
+        .pipe(browserSync.reload({stream:true, once: true}));
 });
 
 gulp.task('browser-sync', function() {
@@ -60,8 +57,9 @@ gulp.task('bs-reload', function () {
 
 gulp.task('default', ['css', 'js', 'browser-sync'], function () {
     gulp.watch("src/scss/*/*.scss", ['css']);
-    gulp.watch("src/js/*.js", ['js']);
-    gulp.watch("app/*.html", ['bs-reload']);
+    gulp.watch("src/*.js", ['js']);
+    gulp.watch("app/data/*.json");
+    gulp.watch("app/**/*.html", ['bs-reload']);
 });
 
 gulp.task('test', ['css', 'js']);
