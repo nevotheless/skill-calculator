@@ -12,7 +12,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="talent in medical"  ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Medical', talent)" id="talMed1"></div>
+                                    <div toggle-class="boxToggle" ng-repeat="talent in medical"  ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Medical', talent)" id="talMed1"></div>
                                 </td>
                             </tr>
                         </table>
@@ -29,7 +29,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="talent in tec" ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Tech', talent)" id="talTec1"></div>
+                                    <div toggle-class="boxToggle" ng-repeat="talent in tec" ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Tech', talent)" id="talTec1"></div>
                                 </td>
                             </tr>
                         </table>
@@ -46,7 +46,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="talent in sec"  ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Security', talent)" id="talSec1"></div>
+                                    <div toggle-class="boxToggle" ng-repeat="talent in sec"  ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Security', talent)" id="talSec1"></div>
                             </tr>
                         </table>
                     </div>

@@ -13,7 +13,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="(key, value) in medical" class="skillBox" ng-class="getSkillIconClass('medical',key)" ng-click="changeContext('medical',key)"></div>
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in medical" class="skillBox" ng-class="getSkillIconClass('medical',key)" ng-click="changeContext('medical',key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -31,7 +31,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="(key, value) in tec" class="skillBox" ng-class="getSkillIconClass('tec',key)" ng-click="changeContext('tec',key)"></div>
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in tec" class="skillBox" ng-class="getSkillIconClass('tec',key)" ng-click="changeContext('tec',key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -49,7 +49,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="(key, value) in sec" class="skillBox" ng-class="getSkillIconClass('sec',key)" ng-click="changeContext('sec',key)"></div>
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in sec" class="skillBox" ng-class="getSkillIconClass('sec',key)" ng-click="changeContext('sec',key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -79,14 +79,14 @@
                     </div>
                     <div class="infoBox">
                         <table width="100%" class="modsTable">
-                            <tr height="50px" ng-class="isSignature(skill.name)">
+                            <tr height="50px" ng-class="isSignature(1, skill.name)">
                                 <td width="20%" style="color:orange;"><span class="skillModBase">Base</span></td>
                                 <td width="60%" style="color:orange;">Modifications</td>
                                 <td width="20%" style="color:orange;">Master</td>
                             </tr>
                             <tr>
-                                <td colspan="3" id="modBoxes">
-                                    <div ng-repeat="(key, value) in mods" ng-class="getModIconClass(skill.name, key)" class="modBox mod1" id="mod1" ng-mouseover="changeSubContext(key)"></div>
+                                <td colspan="3" id="modBoxes" ng-class="isSignature(1, skill.name)">
+                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in mods" ng-class="[getModIconClass(skill.name, key), isSignature(0, skill.name)]" class="modBox mod1" id="mod1" ng-mouseover="changeSubContext(key)"></div>
                                 </td>
                             </tr>
                         </table>

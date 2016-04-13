@@ -371,7 +371,7 @@ td {
   animation-timing-function: ease;
   animation-iteration-count: 1;
   animation-fill-mode: both;
-  overflow: hidden;
+  overflow: hidden !important;
   opacity: 1;
 }
 .medicalSkills .boxToggle {

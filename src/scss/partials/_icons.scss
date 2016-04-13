@@ -34,6 +34,8 @@
 // Recovery Link
 .icon-Recovery-Link {
   background-position: -2px -302px;
+}
+.medicalSkills .icon-Recovery-Link {
   background-color: rgba(111,196,74,.2) !important;
 }
 .icon-Recovery-Link-0 {}
@@ -77,6 +79,8 @@
 // Tactical Link
 .icon-Tactical-Link {
   background-position: -2px -702px;
+}
+.techSkills .icon-Tactical-Link {
   background-color: rgba(255,202,87,.2) !important;
 }
 
@@ -115,6 +119,8 @@
 // Survivor Link
 .icon-Survivor-Link {
   background-position: -2px -1102px;
+}
+.secSkills .icon-Survivor-Link {
   background-color: rgba(64, 132, 197, .2) !important;
 }
 
@@ -321,4 +327,217 @@
 }
 .icon-One-is-None-Header {
   background-position: -700px -200px;
+}
+
+/**** Perk Icons ****/
+
+/** MED ICONS **/
+.icon-Medkits {
+  background-position: 0px 0px;
+}
+.icon-Medkits-Header {
+  background-position: 0px 0px;
+}
+.icon-Protective-Measures {
+  background-position: -75px 0px;
+}
+.icon-Protective-Measures-Header {
+  background-position: -100px 0px;
+}
+.icon-Canned-Food {
+  background-position: -150px 0;
+}
+.icon-Canned-Food-Header {
+  background-position: -200px 0px;
+}
+.icon-Supplier {
+  background-position: -225 0px;
+}
+.icon-Supplier-Header {
+  background-position: -300px 0px;
+}
+.icon-Contamination-Intel {
+  background-position: -300px 0px;
+}
+.icon-Contamination-Intel-Header {
+  background-position: -400px 0px;
+}
+.icon-Hazardous-Materials {
+  background-position: -525px 0px;
+}
+.icon-Hazardous-Materials-Header {
+  background-position: -100px -100px;
+}
+.icon-Rigger {
+  background-position: -600px 0px;
+}
+.icon-Rigger-Header {
+  background-position: -600px 0px;
+}
+.icon-Credit {
+  background-position: -750px 0px;
+}
+.icon-Credit-Header {
+  background-position: -700px 0px;
+}
+.icon-Talents {
+  background-position: -900px 0px;
+}
+.icon-Talents-Header {
+  background-position: -800px 0px;
+}
+/** TEC ICONS **/
+
+.icon-Inventory {
+  background-position: -0px -75px;
+}
+.icon-Inventory-Header {
+  background-position: -0px -100px;
+}
+.icon-Division-Tech-Materials {
+  background-position: -150px -75px;
+}
+.icon-Division-Tech-Materials-Header {
+  background-position: -200px -100px;
+}
+.icon-Engineer {
+  background-position: -225px -75px;
+}
+.icon-Engineer-Header {
+  background-position: -300px -100px;
+}
+.icon-Soda {
+  background-position: -300px -75px;
+}
+.icon-Soda-Header {
+  background-position: -400px -100px;
+}
+.icon-Water {
+  background-position: -375px -75px;
+}
+.icon-Water-Header {
+  background-position: -500px -100px;
+}
+.icon-Craftsman {
+  background-position: -450px -75px;
+}
+.icon-Craftsman-Header {
+  background-position: -600px -100px;
+}
+.icon-Energy-Bar {
+  background-position: -525px -75px;
+}
+.icon-Energy-Bar-Header {
+  background-position: -700px -100px;
+}
+.icon-Rescue-Assessment {
+  background-position: -600px -75px;
+}
+.icon-Rescue-Assessment-Header {
+  background-position: -800px -100px;
+}
+.icon-Stat-Switch {
+  background-position: -675px -75px;
+}
+.icon-Stat-Switch-Header {
+  background-position: -900px -100px;
+}
+.icon-Dark-Zone-Funds {
+  background-position: -750px -75px;
+}
+.icon-Dark-Zone-Funds-Header {
+  background-position: -1000px -100px;
+}
+.icon-Stash {
+  background-position: -825px -75px;
+}
+.icon-Stash-Header {
+  background-position: -1100px -100px;
+}
+
+/** SEC ICONS **/
+
+.icon-Experienced-Agent {
+  background-position: -0px -150px;
+}
+.icon-Experienced-Agent-Header {
+  background-position: -0px -200px;
+}
+.icon-Grenades {
+  background-position: -75px -150px;
+}
+.icon-Grenades-Header {
+  background-position: -100px -200px;
+}
+.icon-Advanced-Weaponry {
+  background-position: -150px -150px;
+}
+.icon-Advanced-Weaponry-Header {
+  background-position: -200px -200px;
+}
+.icon-Combat-Veteran {
+  background-position: -225px -150px;
+}
+.icon-Combat-Veteran-Header {
+  background-position: -300px -200px;
+}
+.icon-Black-Market-Vendor {
+  background-position: -375px -150px;
+}
+.icon-Black-Market-Vendor-Header {
+  background-position: -500px -200px;
+}
+.icon-Clothes-Vendor {
+  background-position: -450px -150px;
+}
+.icon-Clothes-Vendor-Header {
+  background-position: -600px -200px;
+}
+.icon-Explosive-Bullets {
+  background-position: -525px -150px;
+}
+.icon-Explosive-Bullets-Header {
+  background-position: -700px -200px;
+}
+.icon-Gunsmith {
+  background-position: -600px -150px;
+}
+.icon-Gunsmith-Header {
+  background-position: -800px -200px;
+}
+.icon-Scavenger {
+  background-position: -675px -150px;
+}
+.icon-Scavenger-Header {
+  background-position: -900px -200px;
+}
+.icon-Incendiary-Bullets {
+  background-position: -750px -150px;
+}
+.icon-Incendiary-Bullets-Header {
+  background-position: -1000px -200px;
+}
+.icon-Special-Ammo {
+  background-position: -825px -150px;
+}
+.icon-Special-Ammo-Header {
+  background-position: -1100px -200px;
+}
+.icon-Shooting-Range {
+  background-position: -900px -150px;
+}
+.icon-Shooting-Range-Header {
+  background-position: -1200px -200px;
+}
+.icon-Intel-Discovery {
+  background-position: -975px -150px;
+}
+.icon-Intel-Discovery-Header {
+  background-position: -1300px -200px;
+}
+.icon-Collector {
+  background-position: -1050px -150px;
+}
+.icon-Collector-Header {
+  background-position: -1400px -200px;
 }

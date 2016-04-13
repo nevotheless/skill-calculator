@@ -11,6 +11,72 @@ config(function($routeProvider, $locationProvider) {
     when("/perks", { templateUrl: "./partials/perks.partial.html" }).
     otherwise( { redirectTo: "/skills" })
 })
+app.directive('toggleClass', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            element.bind('click', function() {
+                element.toggleClass(attrs.toggleClass);
+            });
+        }
+    };
+});
+app.controller("glob", function($scope) {
+    $scope.toggleBoxState
+});
+
+// Perk Controller
+app.controller('perksCtrl', function($scope, $http) {
+    $http.get('data/perks.json')
+        .then(function(res) {
+            $scope.medical = res.data.perks.medical;
+            $scope.tec     = res.data.perks.tec;
+            $scope.sec     = res.data.perks.sec;
+
+            // Init
+            $scope.tree = 'Medical';
+            $scope.perk = $scope.medical[0];
+
+            $scope.changePerkContext = function(tree, perk) {
+                // console.log(tree);
+                // console.log(talent);
+                $scope.tree = tree;
+                // console.log($scope.tree);
+                $scope.perk = perk;
+                // console.log($scope.perk);
+                // console.log($scope.talent.req);
+            };
+
+
+            $scope.getPerkIconClass = function(mode, perk) {
+                // console.log(perk);
+
+                var perkStripped = perk.name.replace(/\s/g, '-');
+
+                // console.log(perkStripped);
+                if(mode == 0) {
+                    var ret = "icon-" + perkStripped;
+                } else {
+                    // console.log(perk.name);
+                    var ret = "icon-" + perkStripped + '-Header';
+                    // console.log(ret);
+                }
+                //console.log(talent);
+                return ret;
+
+            }
+
+            $scope.getTreeIcon = function(tree) {
+                if(tree == "Security")
+                    return "req-sec";
+                else if(tree == "Medical")
+                    return "req-med";
+                else if(tree == "Tech")
+                    return "req-tec";
+            };
+
+        });
+});
 
 // Talents Controller
 app.controller('talentsCtrl', function($scope, $http) {
@@ -89,13 +155,18 @@ app.controller('skillCtrl', function($scope, $http) {
             $scope.getModIconClass = function(skillName, identifier) {
                 return "icon-" + skillName.replace(/\s/g, '-') + '-' + identifier;
             }
-            $scope.isSignature = function(skillName) {
-                if(skillName=="Recovery Link")
-                    return "hideSkillHead"
-                else if(skillName=="Tactical Link")
-                    return "hideSkillHead"
-                else if(skillName=="Survivor Link")
-                    return "hideSkillHead"
+            $scope.isSignature = function(type, skillName) {
+                if(type === 0) {
+                    var hideState = "hideSkillHead";
+                } else if(type === 1) {
+                    var hideState = "removeSkillHead";
+                }
+                if (skillName == "Recovery Link")
+                    return hideState
+                else if (skillName == "Tactical Link")
+                    return hideState
+                else if (skillName == "Survivor Link")
+                    return hideState
             }
 
             // context changer
