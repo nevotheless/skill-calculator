@@ -253,6 +253,11 @@ app.controller('skillCtrl', function($scope, $http) {
                         if(base == 833) {
                             // Signature CDs
                             var result = 900 - (900 * SkillPowerRatio * SkillCooldownScalingCurve);
+
+                            // minimal value
+                            if (result < 360)
+                                result = 360;
+
                             return result.toFixed(2) + unit;
 
                         } else {
