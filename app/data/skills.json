@@ -13,28 +13,33 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "60",
-                "unit": "m"
+                "base": 60,
+                "unit": "m",
+                "modifier": 60
               },
               {
                 "name": "Duration",
-                "base": "25",
-                "unit": "s"
+                "base": 17.5,
+                "unit": "s",
+                "modifier": 17.5
               },
               {
                 "name": "Critical Hit Chance",
-                "base": "12,8",
-                "unit": "%"
+                "base": 12.8,
+                "unit": "%",
+                "modifier": 0.1
               },
               {
                 "name": "Critical Hit Damage",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -46,28 +51,33 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "80",
-                "unit": "m"
+                "base": 80,
+                "unit": "m",
+                "modifier": 80
               },
               {
                 "name": "Duration",
-                "base": "17,5",
-                "unit": "s"
+                "base": 17.5,
+                "unit": "s",
+                "modifier": 17.5
               },
               {
                 "name": "Critical Hit Chance",
-                "base": "12,8",
-                "unit": "%"
+                "base": 12.8,
+                "unit": "%",
+                "modifier": 0.1
               },
               {
                 "name": "Critical Hit Damage",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -78,28 +88,33 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "60",
-                "unit": "m"
+                "base": 60,
+                "unit": "m",
+                "modifier": 60
               },
               {
                 "name": "Duration",
-                "base": "25",
-                "unit": "s"
+                "base": 25,
+                "unit": "s",
+                "modifier": 25
               },
               {
                 "name": "Critical Hit Chance",
-                "base": "6,4",
-                "unit": "%"
+                "base": 6.4,
+                "unit": "%",
+                "modifier": 0.05
               },
               {
                 "name": "Critical Hit Damage",
-                "base": "16",
-                "unit": "%"
+                "base": 16,
+                "unit": "%",
+                "modifier": 0.125
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -110,28 +125,33 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "60",
-                "unit": "m"
+                "base": 60,
+                "unit": "m",
+                "modifier": 60
               },
               {
                 "name": "Duration",
-                "base": "25",
-                "unit": "s"
+                "base": 25,
+                "unit": "s",
+                "modifier": 25
               },
               {
                 "name": "Critical Hit Chance",
-                "base": "16",
-                "unit": "%"
+                "base": 16,
+                "unit": "%",
+                "modifier": 0.125
               },
               {
                 "name": "Critical Hit Damage",
-                "base": "32",
-                "unit": "%"
+                "base": 32,
+                "unit": "%",
+                "modifier": 0.250
               },
               {
                 "name": "Cooldown",
-                "base": "64,8",
-                "unit": "s"
+                "base": 64.8,
+                "unit": "s",
+                "modifier": 70
               }
             ]
           },
@@ -142,28 +162,33 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "60",
-                "unit": "m"
+                "base": 60,
+                "unit": "m",
+                "modifier": 60
               },
               {
                 "name": "Duration",
-                "base": "25",
-                "unit": "s"
+                "base": 25,
+                "unit": "s",
+                "modifier": 17.5
               },
               {
                 "name": "Critical Hit Chance",
-                "base": "12,8",
-                "unit": "%"
+                "base": 12.8,
+                "unit": "%",
+                "modifier": 0.1
               },
               {
                 "name": "Critical Hit Damage",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           }
@@ -181,28 +206,33 @@
             "attr": [
               {
                 "name": "Self Heal",
-                "base": "7390",
-                "unit": "HP"
+                "base": 7390,
+                "unit": "HP",
+                "modifier": 550
               },
               {
                 "name": "Ally Heal",
-                "base": "7390",
-                "unit": "HP"
+                "base": 7390,
+                "unit": "HP",
+                "modifier": 550
               },
               {
                 "name": "Range",
-                "base": "3",
-                "unit": "m"
+                "base": 3,
+                "unit": "m",
+                "modifier": 3
               },
               {
                 "name": "Deploy Range",
-                "base": "40",
-                "unit": "m"
+                "base": 40,
+                "unit": "m",
+                "modifier": 40
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -213,28 +243,33 @@
             "attr": [
               {
                 "name": "Self Heal",
-                "base": "7390",
-                "unit": "HP"
+                "base": 7390,
+                "unit": "HP",
+                "modifier": 550
               },
               {
                 "name": "Ally Heal",
-                "base": "7390",
-                "unit": "HP"
+                "base": 7390,
+                "unit": "HP",
+                "modifier": 550
               },
               {
                 "name": "Range",
-                "base": "3",
-                "unit": "m"
+                "base": 3,
+                "unit": "m",
+                "modifier": 3
               },
               {
                 "name": "Deploy Range",
-                "base": "40",
-                "unit": "m"
+                "base": 40,
+                "unit": "m",
+                "modifier": 40
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -245,28 +280,33 @@
             "attr": [
               {
                 "name": "Self Heal",
-                "base": "10078",
-                "unit": "HP"
+                "base": 10078,
+                "unit": "HP",
+                "modifier": 750
               },
               {
                 "name": "Ally Heal",
-                "base": "10078",
-                "unit": "HP"
+                "base": 10078,
+                "unit": "HP",
+                "modifier": 750
               },
               {
                 "name": "Range",
-                "base": "2",
-                "unit": "m"
+                "base": 2,
+                "unit": "m",
+                "modifier": 2
               },
               {
                 "name": "Deploy Range",
-                "base": "40",
-                "unit": "m"
+                "base": 40,
+                "unit": "m",
+                "modifier": 40
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -277,28 +317,33 @@
             "attr": [
               {
                 "name": "Self Heal",
-                "base": "5912",
-                "unit": "HP"
+                "base": 5912,
+                "unit": "HP",
+                "modifier": 440
               },
               {
                 "name": "Ally Heal",
-                "base": "8062",
-                "unit": "HP"
+                "base": 8062,
+                "unit": "HP",
+                "modifier": 600
               },
               {
                 "name": "Range",
-                "base": "3",
-                "unit": "m"
+                "base": 3,
+                "unit": "m",
+                "modifier": 3
               },
               {
                 "name": "Deploy Range",
-                "base": "40",
-                "unit": "m"
+                "base": 40,
+                "unit": "m",
+                "modifier": 40
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -309,28 +354,33 @@
             "attr": [
               {
                 "name": "Self Heal",
-                "base": "7390",
-                "unit": "HP"
+                "base": 7390,
+                "unit": "HP",
+                "modifier": 550
               },
               {
                 "name": "Ally Heal",
-                "base": "7390",
-                "unit": "HP"
+                "base": 7390,
+                "unit": "HP",
+                "modifier": 550
               },
               {
                 "name": "Range",
-                "base": "3",
-                "unit": "m"
+                "base": 3,
+                "unit": "m",
+                "modifier": 3
               },
               {
                 "name": "Deploy Range",
-                "base": "40",
-                "unit": "m"
+                "base": 40,
+                "unit": "m",
+                "modifier": 40
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           }
@@ -348,33 +398,39 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Healing Rate",
-                "base": "403",
-                "unit": "HP/s"
+                "base": 403,
+                "unit": "HP/s",
+                "modifier": 30
               },
               {
                 "name": "Revive Time",
-                "base": "5",
-                "unit": "s"
+                "base": 5,
+                "unit": "s",
+                "modifier": 5
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "5375",
-                "unit": "s"
+                "base": 5375,
+                "unit": "s",
+                "modifier": 400
               },
               {
                 "name": "Cooldown",
-                "base": "83,3",
-                "unit": "s"
+                "base": 83.3,
+                "unit": "s",
+                "modifier": 90
               }
             ]
           },
@@ -385,33 +441,39 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "6",
-                "unit": "m"
+                "base": 6,
+                "unit": "m",
+                "modifier": 6
               },
               {
                 "name": "Healing Rate",
-                "base": "403",
-                "unit": "HP/s"
+                "base": 403,
+                "unit": "HP/s",
+                "modifier": 30
               },
               {
                 "name": "Revive Time",
-                "base": "5",
-                "unit": "s"
+                "base": 5,
+                "unit": "s",
+                "modifier": 5
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "5375",
-                "unit": "s"
+                "base": 5375,
+                "unit": "s",
+                "modifier": 400
               },
               {
                 "name": "Cooldown",
-                "base": "83,3",
-                "unit": "s"
+                "base": 83.3,
+                "unit": "s",
+                "modifier": 90
               }
             ]
           },
@@ -422,33 +484,39 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Healing Rate",
-                "base": "403",
-                "unit": "HP/s"
+                "base": 403,
+                "unit": "HP/s",
+                "modifier": 30
               },
               {
                 "name": "Revive Time",
-                "base": "5",
-                "unit": "s"
+                "base": 5,
+                "unit": "s",
+                "modifier": 5
               },
               {
                 "name": "Lifetime",
-                "base": "24",
-                "unit": "s"
+                "base": 24,
+                "unit": "s",
+                "modifier": 24
               },
               {
                 "name": "Health",
-                "base": "5375",
-                "unit": "s"
+                "base": 5375,
+                "unit": "s",
+                "modifier": 400
               },
               {
                 "name": "Cooldown",
-                "base": "83,3",
-                "unit": "s"
+                "base": 83.3,
+                "unit": "s",
+                "modifier": 90
               }
             ]
           },
@@ -459,33 +527,39 @@
             "attr": [
               {
                 "name": "Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Healing Rate",
-                "base": "322",
-                "unit": "HP/s"
+                "base": 322,
+                "unit": "HP/s",
+                "modifier": 24
               },
               {
                 "name": "Revive Time",
-                "base": "5",
-                "unit": "s"
+                "base": 5,
+                "unit": "s",
+                "modifier": 5
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "5375",
-                "unit": "s"
+                "base": 5375,
+                "unit": "s",
+                "modifier": 400
               },
               {
                 "name": "Cooldown",
-                "base": "83,3",
-                "unit": "s"
+                "base": 83.3,
+                "unit": "s",
+                "modifier": 90
               }
             ]
           },
@@ -495,29 +569,40 @@
             "description": "When the device is disabled, nearby aliies receive immediate healing.",
             "attr": [
               {
-                "name": "Self Heal",
-                "base": "7390",
-                "unit": "HP"
-              },
-              {
-                "name": "Ally Heal",
-                "base": "7390",
-                "unit": "HP"
-              },
-              {
                 "name": "Range",
-                "base": "3",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
-                "name": "Deploy Range",
-                "base": "40",
-                "unit": "m"
+                "name": "Healing Rate",
+                "base": 403,
+                "unit": "HP/s",
+                "modifier": 30
+              },
+              {
+                "name": "Revive Time",
+                "base": 5,
+                "unit": "s",
+                "modifier": 5
+              },
+              {
+                "name": "Lifetime",
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
+              },
+              {
+                "name": "Health",
+                "base": 5375,
+                "unit": "s",
+                "modifier": 400
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 83.3,
+                "unit": "s",
+                "modifier": 90
               }
             ]
           }
@@ -535,28 +620,33 @@
             "attr": [
               {
                 "name": "Healing Rate",
-                "base": "25279",
-                "unit": "HP"
+                "base": 25279,
+                "unit": "HP",
+                "modifier": 25279
               },
               {
                 "name": "Instant Heal",
-                "base": "7222",
-                "unit": "HP"
+                "base": 7222,
+                "unit": "HP",
+                "modifier": 7222
               },
               {
                 "name": "Duration",
-                "base": "5",
-                "unit": "m"
+                "base": 5,
+                "unit": "m",
+                "modifier": 5
               },
               {
                 "name": "Range",
-                "base": "40",
-                "unit": "m"
+                "base": 40,
+                "unit": "m",
+                "modifier": 40
               },
               {
                 "name": "Cooldown",
-                "base": "833",
-                "unit": "s"
+                "base": 833,
+                "unit": "s",
+                "modifier": 833
               }
             ]
           }
@@ -576,23 +666,27 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "1650",
-                "unit": "HP"
+                "base": 22171,
+                "unit": "HP",
+                "modifier": 1650
               },
               {
                 "name": "Explosion Radius",
-                "base": "5",
-                "unit": "m"
+                "base": 4,
+                "unit": "m",
+                "modifier": 4
               },
               {
                 "name": "Deploy Range",
-                "base": "50",
-                "unit": "m"
+                "base": 50,
+                "unit": "m",
+                "modifier": 50
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 46.3,
+                "unit": "s",
+                "modifier": 50
               }
             ]
           },
@@ -603,23 +697,27 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "2475",
-                "unit": "HP"
+                "base": 30234,
+                "unit": "HP",
+                "modifier": 2250
               },
               {
                 "name": "Explosion Radius",
-                "base": "6,25",
-                "unit": "m"
+                "base": 4.5,
+                "unit": "m",
+                "modifier": 4.5
               },
               {
                 "name": "Deploy Range",
-                "base": "50",
-                "unit": "m"
+                "base": 50,
+                "unit": "m",
+                "modifier": 50
               },
               {
                 "name": "Cooldown",
-                "base": "90",
-                "unit": "s"
+                "base": 64.8,
+                "unit": "s",
+                "modifier": 70
               }
             ]
           },
@@ -630,23 +728,27 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "165",
-                "unit": "HP"
+                "base": 2217,
+                "unit": "HP",
+                "modifier": 165
               },
               {
                 "name": "Explosion Radius",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Deploy Range",
-                "base": "50",
-                "unit": "m"
+                "base": 50,
+                "unit": "m",
+                "modifier": 50
               },
               {
                 "name": "Cooldown",
-                "base": "45",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -657,23 +759,27 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "1650",
-                "unit": "HP"
+                "base": 22171,
+                "unit": "HP",
+                "modifier": 1650
               },
               {
                 "name": "Explosion Radius",
-                "base": "6,25",
-                "unit": "m"
+                "base": 6.25,
+                "unit": "m",
+                "modifier": 6.25
               },
               {
                 "name": "Deploy Range",
-                "base": "50",
-                "unit": "m"
+                "base": 50,
+                "unit": "m",
+                "modifier": 50
               },
               {
                 "name": "Cooldown",
-                "base": "45",
-                "unit": "s"
+                "base": 46.3,
+                "unit": "s",
+                "modifier": 50
               }
             ]
           },
@@ -684,23 +790,27 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "1650",
-                "unit": "HP"
+                "base": 22171,
+                "unit": "HP",
+                "modifier": 1650
               },
               {
                 "name": "Explosion Radius",
-                "base": "5",
-                "unit": "m"
+                "base": 4,
+                "unit": "m",
+                "modifier": 4
               },
               {
                 "name": "Deploy Range",
-                "base": "50",
-                "unit": "m"
+                "base": 50,
+                "unit": "m",
+                "modifier": 50
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 46.3,
+                "unit": "s",
+                "modifier": 50
               }
             ]
           }
@@ -718,28 +828,33 @@
             "attr": [
               {
                 "name": "Damage",
-                "base": "308",
-                "unit": "HP"
+                "base": 308,
+                "unit": "HP",
+                "modifier": 18
               },
               {
                 "name": "Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "13437",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -750,28 +865,33 @@
             "attr": [
               {
                 "name": "Damage",
-                "base": "377",
-                "unit": "HP"
+                "base": 377,
+                "unit": "HP",
+                "modifier": 22
               },
               {
                 "name": "Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 25,
+                "unit": "s",
+                "modifier": 25
               },
               {
                 "name": "Health",
-                "base": "13437",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -782,28 +902,33 @@
             "attr": [
               {
                 "name": "Damage",
-                "base": "514",
-                "unit": "HP"
+                "base": 514,
+                "unit": "HP",
+                "modifier": 30
               },
               {
                 "name": "Range",
-                "base": "12",
-                "unit": "m"
+                "base": 12,
+                "unit": "m",
+                "modifier": 12
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "134370",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Cooldown",
-                "base": "69,40",
-                "unit": "s"
+                "base": 69.4,
+                "unit": "s",
+                "modifier": 75
               }
             ]
           },
@@ -814,28 +939,33 @@
             "attr": [
               {
                 "name": "Damage",
-                "base": "171",
-                "unit": "HP"
+                "base": 171,
+                "unit": "HP",
+                "modifier": 10
               },
               {
                 "name": "Range",
-                "base": "20",
-                "unit": "m"
+                "base": 20,
+                "unit": "m",
+                "modifier": 20
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "134370",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Cooldown",
-                "base": "55.5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -846,28 +976,33 @@
             "attr": [
               {
                 "name": "Damage",
-                "base": "308",
-                "unit": "HP"
+                "base": 308,
+                "unit": "HP",
+                "modifier": 18
               },
               {
                 "name": "Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Health",
-                "base": "134370",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Cooldown",
-                "base": "55.5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           }
@@ -885,33 +1020,39 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "13437",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Explosion Radius",
-                "base": "6",
-                "unit": "m"
+                "base": 6,
+                "unit": "m",
+                "modifier": 6
               },
               {
                 "name": "Detection Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "45",
-                "unit": "s"
+                "base": 45,
+                "unit": "s",
+                "modifier": 45
               },
               {
                 "name": "Health",
-                "base": "2016",
-                "unit": "HP"
+                "base": 2016,
+                "unit": "HP",
+                "modifier": 150
               },
               {
                 "name": "Cooldown",
-                "base": "64,80",
-                "unit": "s"
+                "base": 64.80,
+                "unit": "s",
+                "modifier": 70
               }
             ]
           },
@@ -922,33 +1063,39 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "4031",
-                "unit": "HP"
+                "base": 4031,
+                "unit": "HP",
+                "modifier": 300
               },
               {
                 "name": "Explosion Radius",
-                "base": "4",
-                "unit": "m"
+                "base": 4,
+                "unit": "m",
+                "modifier": 4
               },
               {
                 "name": "Detection Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "45",
-                "unit": "s"
+                "base": 45,
+                "unit": "s",
+                "modifier": 45
               },
               {
                 "name": "Health",
-                "base": "2016",
-                "unit": "HP"
+                "base": 2016,
+                "unit": "HP",
+                "modifier": 150
               },
               {
                 "name": "Cooldown",
-                "base": "64,80",
-                "unit": "s"
+                "base": 64.80,
+                "unit": "s",
+                "modifier": 70
               }
             ]
           },
@@ -959,33 +1106,39 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "0",
-                "unit": "HP"
+                "base": 0,
+                "unit": "HP",
+                "modifier": 0
               },
               {
                 "name": "Explosion Radius",
-                "base": "5",
-                "unit": "m"
+                "base": 5,
+                "unit": "m",
+                "modifier": 5
               },
               {
                 "name": "Detection Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "45",
-                "unit": "s"
+                "base": 45,
+                "unit": "s",
+                "modifier": 45
               },
               {
                 "name": "Health",
-                "base": "2016",
-                "unit": "HP"
+                "base": 2016,
+                "unit": "HP",
+                "modifier": 150
               },
               {
                 "name": "Cooldown",
-                "base": "55,50",
-                "unit": "s"
+                "base": 55.50,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -996,33 +1149,39 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "4031",
-                "unit": "HP"
+                "base": 4031,
+                "unit": "HP",
+                "modifier": 300
               },
               {
                 "name": "Explosion Radius",
-                "base": "3",
-                "unit": "m"
+                "base": 3,
+                "unit": "m",
+                "modifier": 3
               },
               {
                 "name": "Detection Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "45",
-                "unit": "s"
+                "base": 45,
+                "unit": "s",
+                "modifier": 45
               },
               {
                 "name": "Health",
-                "base": "672",
-                "unit": "HP"
+                "base": 672,
+                "unit": "HP",
+                "modifier": 50
               },
               {
                 "name": "Cooldown",
-                "base": "64,80",
-                "unit": "s"
+                "base": 64.80,
+                "unit": "s",
+                "modifier": 70
               }
             ]
           },
@@ -1033,33 +1192,39 @@
             "attr": [
               {
                 "name": "Explosion Damage",
-                "base": "13437",
-                "unit": "HP"
+                "base": 13437,
+                "unit": "HP",
+                "modifier": 1000
               },
               {
                 "name": "Explosion Radius",
-                "base": "6",
-                "unit": "m"
+                "base": 6,
+                "unit": "m",
+                "modifier": 6
               },
               {
                 "name": "Detection Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Lifetime",
-                "base": "45",
-                "unit": "s"
+                "base": 45,
+                "unit": "s",
+                "modifier": 45
               },
               {
                 "name": "Health",
-                "base": "2016",
-                "unit": "HP"
+                "base": 2016,
+                "unit": "HP",
+                "modifier": 150
               },
               {
                 "name": "Cooldown",
-                "base": "64,80",
-                "unit": "s"
+                "base": 64.80,
+                "unit": "s",
+                "modifier": 70
               }
             ]
           }
@@ -1077,28 +1242,33 @@
             "attr": [
               {
                 "name": "Damage Buff",
-                "base": "50",
-                "unit": "%"
+                "base": 50,
+                "unit": "%",
+                "modifier": 50
               },
               {
                 "name": "Critical Hit Chance",
-                "base": "20",
-                "unit": "%"
+                "base": 20,
+                "unit": "%",
+                "modifier": 20
               },
               {
                 "name": "Duration",
-                "base": "12",
-                "unit": "s"
+                "base": 12,
+                "unit": "s",
+                "modifier": 12
               },
               {
                 "name": "Range",
-                "base": "25",
-                "unit": "m"
+                "base": 25,
+                "unit": "m",
+                "modifier": 25
               },
               {
                 "name": "Cooldown",
-                "base": "833",
-                "unit": "s"
+                "base": 833,
+                "unit": "s",
+                "modifier": 833
               }
             ]
           }
@@ -1118,23 +1288,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "40312",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 3000
               },
               {
                 "name": "Damage Increase",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Damage Resistance",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -1145,23 +1319,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "60467",
-                "unit": "HP"
+                "base": 60467,
+                "unit": "HP",
+                "modifier": 4500
               },
               {
                 "name": "Damage Increase",
-                "base": "5",
-                "unit": "%"
+                "base": 5,
+                "unit": "%",
+                "modifier": 5
               },
               {
                 "name": "Damage Resistance",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -1172,23 +1350,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "30234",
-                "unit": "HP"
+                "base": 30234,
+                "unit": "HP",
+                "modifier": 2250
               },
               {
                 "name": "Damage Increase",
-                "base": "20",
-                "unit": "%"
+                "base": 20,
+                "unit": "%",
+                "modifier": 20
               },
               {
                 "name": "Damage Resistance",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           },
@@ -1199,23 +1381,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "40312",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 3000
               },
               {
                 "name": "Damage Increase",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Damage Resistance",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -1226,23 +1412,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "40312",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 3000
               },
               {
                 "name": "Damage Increase",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Damage Resistance",
-                "base": "10",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Cooldown",
-                "base": "41,7",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 45
               }
             ]
           }
@@ -1260,33 +1450,39 @@
             "attr": [
               {
                 "name": "Damage Resistance",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 20
               },
               {
                 "name": "Damage Buff",
-                "base": "19,2",
-                "unit": "%"
+                "base": 19.2,
+                "unit": "%",
+                "modifier": 15
               },
               {
                 "name": "Effect Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Deploy Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -1297,33 +1493,39 @@
             "attr": [
               {
                 "name": "Damage Resistance",
-                "base": "12,8",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 10
               },
               {
                 "name": "Damage Buff",
-                "base": "95,9",
-                "unit": "%"
+                "base": 19.2,
+                "unit": "%",
+                "modifier": 75
               },
               {
                 "name": "Effect Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Deploy Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -1334,33 +1536,39 @@
             "attr": [
               {
                 "name": "Damage Resistance",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 20
               },
               {
                 "name": "Damage Buff",
-                "base": "19,2",
-                "unit": "%"
+                "base": 19.2,
+                "unit": "%",
+                "modifier": 15
               },
               {
                 "name": "Effect Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Lifetime",
-                "base": "20",
-                "unit": "s"
+                "base": 20,
+                "unit": "s",
+                "modifier": 20
               },
               {
                 "name": "Deploy Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -1371,33 +1579,39 @@
             "attr": [
               {
                 "name": "Damage Resistance",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 20
               },
               {
                 "name": "Damage Buff",
-                "base": "19,2",
-                "unit": "%"
+                "base": 19.2,
+                "unit": "%",
+                "modifier": 15
               },
               {
                 "name": "Effect Range",
-                "base": "6",
-                "unit": "m"
+                "base": 6,
+                "unit": "m",
+                "modifier": 6
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Deploy Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -1408,33 +1622,39 @@
             "attr": [
               {
                 "name": "Damage Resistance",
-                "base": "25,6",
-                "unit": "%"
+                "base": 25.6,
+                "unit": "%",
+                "modifier": 20
               },
               {
                 "name": "Damage Buff",
-                "base": "19,2",
-                "unit": "%"
+                "base": 19.2,
+                "unit": "%",
+                "modifier": 15
               },
               {
                 "name": "Effect Range",
-                "base": "8",
-                "unit": "m"
+                "base": 8,
+                "unit": "m",
+                "modifier": 8
               },
               {
                 "name": "Lifetime",
-                "base": "30",
-                "unit": "s"
+                "base": 30,
+                "unit": "s",
+                "modifier": 30
               },
               {
                 "name": "Deploy Range",
-                "base": "30",
-                "unit": "m"
+                "base": 30,
+                "unit": "m",
+                "modifier": 30
               },
               {
                 "name": "Cooldown",
-                "base": "55,5",
-                "unit": "s"
+                "base": 55.5,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           }
@@ -1452,23 +1672,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "107498",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 8000
               },
               {
                 "name": "Weapon Resistance",
-                "base": "20",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Blast Resistance",
-                "base": "25",
-                "unit": "%"
+                "base": 12,
+                "unit": "%",
+                "modifier": 0.25
               },
               {
                 "name": "Cooldown",
-                "base": "37",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 40
               }
             ]
           },
@@ -1479,23 +1703,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "214995",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 16000
               },
               {
                 "name": "Weapon Resistance",
-                "base": "20",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Blast Resistance",
-                "base": "25",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.25
               },
               {
                 "name": "Cooldown",
-                "base": "55",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 60
               }
             ]
           },
@@ -1506,23 +1734,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "107498",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 8000
               },
               {
                 "name": "Weapon Resistance",
-                "base": "18",
-                "unit": "%"
+                "base": 11,
+                "unit": "%",
+                "modifier": 0.18
               },
               {
                 "name": "Blast Resistance",
-                "base": "12,5",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.125
               },
               {
                 "name": "Cooldown",
-                "base": "37",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 40
               }
             ]
           },
@@ -1533,23 +1765,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "80623",
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 6000
               },
               {
                 "name": "Weapon Resistance",
-                "base": "20",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Blast Resistance",
-                "base": "25",
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.25
               },
               {
                 "name": "Cooldown",
-                "base": "37",
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 40
               }
             ]
           },
@@ -1560,22 +1796,22 @@
             "attr": [
               {
                 "name": "Health",
-                "base": "107498",
+                "base": 107498,
                 "unit": "HP"
               },
               {
                 "name": "Weapon Resistance",
-                "base": "20",
+                "base": 20,
                 "unit": "%"
               },
               {
                 "name": "Blast Resistance",
-                "base": "25",
+                "base": 25,
                 "unit": "%"
               },
               {
                 "name": "Cooldown",
-                "base": "37",
+                "base": 37,
                 "unit": "s"
               }
             ]
@@ -1594,28 +1830,33 @@
             "attr": [
               {
                 "name": "Damage Resistance",
-                "base": "80",
-                "unit": "%"
+                "base": 80,
+                "unit": "%",
+                "modifier": 80
               },
               {
                 "name": "Movement Speed",
-                "base": "30",
-                "unit": "%"
+                "base": 30,
+                "unit": "%",
+                "modifier": 30
               },
               {
                 "name": "Duration",
-                "base": "15",
-                "unit": "s"
+                "base": 15,
+                "unit": "s",
+                "modifier": 15
               },
               {
                 "name": "Range",
-                "base": "25",
-                "unit": "m"
+                "base": 25,
+                "unit": "m",
+                "modifier": 25
               },
               {
                 "name": "Cooldown",
-                "base": "833",
-                "unit": "s"
+                "base": 833,
+                "unit": "s",
+                "modifier": 833
               }
             ]
           }

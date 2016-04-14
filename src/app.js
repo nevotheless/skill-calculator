@@ -149,6 +149,133 @@ app.controller('skillCtrl', function($scope, $http) {
             $scope.mods  = res.data.skills.medical[0].mods;
             $scope.mod   = $scope.mods[0];
 
+            $http.get('data/scaling.json')
+                .then(function(calc) {
+                $scope.calc = function(name, base, unit, modifier) {
+                    $scope.playerScaleContext = calc.data[1];
+                    var playerLevel = $scope.playerLevel;
+                    // data scope
+                    //  data.name
+                    //  data.base
+                    //  data.unit
+    
+                    // parse values
+                    // var unit = $scope.unit;
+                    // var name = $scope.name;
+
+                    // console.log(name);
+    
+                    // input values
+                    // var playerLevel = parseInt(level);
+                    var skillPowerParsed = parseInt($scope.skillPower);
+                    //console.log(skillPowerParsed);
+                    var skillBonusParsed = parseInt($scope.skillBonus);
+
+                    //console.log(playerLevel);
+
+                    // Gives the Scaling Context for the calculations
+                    if($scope.playerScaleContext == "")
+                        $scope.playerScaleContext = calc.data[1];
+                    else
+                        $scope.playerScaleContext = calc.data[playerLevel];
+    
+
+                    // Scaling Values
+                    // THIS IS THE MAGIC
+                    // Based on https://docs.google.com/spreadsheets/d/1PPR9FBZ2JN1Dbd8tGlq1Mwg9PTTy82_m8A-X36dxyyc/edit#gid=914965688
+                    //
+                    // These are calculated using the Values of the Scaling.json, Agent Level and SkillPower
+                    // console.log($scope.playerScaleContext)
+                    var SkillPercentageScalingCurve = $scope.playerScaleContext.SkillPercentageScalingCurve;
+                    // console.log("SkillPercentageScalingCurve: " + SkillPercentageScalingCurve);
+                    var PlayerExclusiveBaseGearScalingCurve = $scope.playerScaleContext.PlayerExclusiveBaseGearScalingCurve;
+                    // console.log("PlayerExclusiveBaseGearScalingCurve: " + PlayerExclusiveBaseGearScalingCurve)
+                    var BaseCurve = 1.12 ^ playerLevel - 1; // TODO: This Formula is to rough and should be improved
+                    // console.log("BaseCurve: " + BaseCurve)
+                    var SkillPowerExpectedCurve = (BaseCurve * 200) + (BaseCurve * 250 * PlayerExclusiveBaseGearScalingCurve);
+                    // console.log("SkillPowerExpectedCurve: " + SkillPowerExpectedCurve)
+                    var SkillPowerRatio = skillPowerParsed / SkillPowerExpectedCurve;
+                    // console.log("SkillPowerRatio: " + SkillPowerRatio)
+                    var SkillCooldownScalingCurve = $scope.playerScaleContext.SkillCooldownScalingCurve;
+                    // console.log("SkillCooldownScalingCurve: " + SkillCooldownScalingCurve)
+                    var BaseGearScalingCurve = $scope.playerScaleContext.BaseGearScalingCurve;
+                    // console.log("BaseGearScalingCurve: " + BaseGearScalingCurve)
+                    var SkillScalingFinal = BaseCurve * BaseGearScalingCurve;
+                    // console.log("SkillScalingFinal: " + SkillScalingFinal)
+                    var HealthScalingCalc = 1 * BaseCurve * BaseGearScalingCurve;
+                    // console.log("HealthScalingCalc: " + HealthScalingCalc)
+                    var DamageScalingCalc = 1.27 * BaseCurve * BaseGearScalingCurve;
+                    // console.log("DamageScalingCalc: " + DamageScalingCalc)
+                    var SkillBaseCalc = (SkillScalingFinal * skillPowerParsed) / SkillPowerExpectedCurve;
+                    // console.log("SkillBaseCalc: " + SkillBaseCalc)
+
+                    // percentage value
+                    if(unit == "%")
+                    {
+                        if(name == "Critical Hit Damage" || name == "Critical Hit Chance" || name == "Damage Buff") {
+                            // console.log($scope.skillPower);
+                            if($scope.mod.name == "Tactical Link") {
+                                var result = modifier;
+                                return result + unit;
+                            }
+                            console.log($scope.mod)
+                            var result = (modifier + (modifier * SkillPercentageScalingCurve * SkillPowerRatio)) * 100
+                            return result.toFixed(2) + unit;
+                        }
+                        if(name == "Weapon Resistance" || name == "Blast Resistance") {
+                            var result = modifier * 100;
+                            return result + unit;
+                        }
+                        if(name == "Damage Increase" || name == "Damage Resistance" || name == "Movement Speed") {
+                            var result = modifier;
+                            return result + unit;
+                        }
+                    }
+                    else if (name == "Instant Heal" || name == "Effect Range" || name == "Detection Range" || name == "Deployment Range" || name == "Explosion Radius" || name == "Lifetime" || name == "Revive Time" || name == "Duration" || name == "Range" || name == "Deploy Range" || name == "Duration")
+                    {
+                        var result = modifier;
+                        return result + unit; // TODO: Should be affected by Skill Bonus
+                    }
+                    else if (name == "Explosion Damage" || name == "Self Heal" || name == "Ally Heal" || name == "Healing Rate")
+                    {
+                        var result = modifier * SkillScalingFinal * SkillPowerRatio;
+                        return result.toFixed(2) + unit;
+                    }
+                    else if (name == "Health") {
+                        var result = modifier * (HealthScalingCalc * SkillPowerRatio);
+                        return result.toFixed(2) + unit;
+                    }
+                    else if (name == "Damage") {
+                        var result = modifier * DamageScalingCalc * SkillPowerRatio;
+                        return result.toFixed(2) + unit;
+                    }
+                    else if (name == "Cooldown") {
+                        if(base == 833) {
+                            // Signature CDs
+                            var result = 900 - (900 * SkillPowerRatio * SkillCooldownScalingCurve);
+                            return result.toFixed(2) + unit;
+
+                        } else {
+                            // Other CDs
+                            var result = modifier - (modifier * SkillPowerRatio * SkillCooldownScalingCurve);
+                            return result.toFixed(2) + unit;
+                        }
+                    }
+
+                    // percentage value
+                    // <scaled base value> = <base value> * (1 + <skill power> / <percentage scaling factor>)
+    
+                    // flat numbers
+                    // <scaled base value> = <base value> * <skill power> / <flat scaling factor>
+    
+                    // cooldowns
+                    // <scaled cooldown> = (<base value> * (1 - <skill power> / <cooldown scaling factor>)) / (1 + <skill haste>)
+    
+                    // $scope.calculatedValue =
+                }
+
+            })
+
             $scope.getSkillIconClass = function(type, skill) {
                 return "icon-" + res.data.skills[type][skill].name.replace(/\s/g, '-');
             }

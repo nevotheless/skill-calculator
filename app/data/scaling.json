@@ -1,0 +1,290 @@
+{
+  "1" : {
+    "Agent Level" : 1,
+    "PlayerExclusiveBaseGearScalingCurve" : 0,
+    "BaseGearScalingCurve" : 0.58,
+    "BaseGearDamageScalingCurve" : 0.58,
+    "SkillPercentageScalingCurve" : 0,
+    "SkillCooldownScalingCurve" : 0.1,
+    "ArmorMitigationRatingDivisorCalc" : 600
+  },
+  "2" : {
+    "Agent Level" : 2,
+    "PlayerExclusiveBaseGearScalingCurve" : 0,
+    "BaseGearScalingCurve" : 0.61,
+    "BaseGearDamageScalingCurve" : 0.61,
+    "SkillPercentageScalingCurve" : 0.026,
+    "SkillCooldownScalingCurve" : 0.103,
+    "ArmorMitigationRatingDivisorCalc" : 580
+  },
+  "3" : {
+    "Agent Level" : 3,
+    "PlayerExclusiveBaseGearScalingCurve" : 0,
+    "BaseGearScalingCurve" : 0.65,
+    "BaseGearDamageScalingCurve" : 0.65,
+    "SkillPercentageScalingCurve" : 0.052,
+    "SkillCooldownScalingCurve" : 0.107,
+    "ArmorMitigationRatingDivisorCalc" : 560
+  },
+  "4" : {
+    "Agent Level" : 4,
+    "PlayerExclusiveBaseGearScalingCurve" : 0.7,
+    "BaseGearScalingCurve" : 0.7,
+    "BaseGearDamageScalingCurve" : 0.7,
+    "SkillPercentageScalingCurve" : 0.078,
+    "SkillCooldownScalingCurve" : 0.11,
+    "ArmorMitigationRatingDivisorCalc" : 540
+  },
+  "5" : {
+    "Agent Level" : 5,
+    "PlayerExclusiveBaseGearScalingCurve" : 0.75,
+    "BaseGearScalingCurve" : 0.75,
+    "BaseGearDamageScalingCurve" : 0.8,
+    "SkillPercentageScalingCurve" : 0.103,
+    "SkillCooldownScalingCurve" : 0.114,
+    "ArmorMitigationRatingDivisorCalc" : 520
+  },
+  "6" : {
+    "Agent Level" : 6,
+    "PlayerExclusiveBaseGearScalingCurve" : 0.8,
+    "BaseGearScalingCurve" : 0.8,
+    "BaseGearDamageScalingCurve" : 0.9,
+    "SkillPercentageScalingCurve" : 0.129,
+    "SkillCooldownScalingCurve" : 0.117,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "7" : {
+    "Agent Level" : 7,
+    "PlayerExclusiveBaseGearScalingCurve" : 0.9,
+    "BaseGearScalingCurve" : 0.9,
+    "BaseGearDamageScalingCurve" : 1,
+    "SkillPercentageScalingCurve" : 0.155,
+    "SkillCooldownScalingCurve" : 0.121,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "8" : {
+    "Agent Level" : 8,
+    "PlayerExclusiveBaseGearScalingCurve" : 1,
+    "BaseGearScalingCurve" : 1,
+    "BaseGearDamageScalingCurve" : 1,
+    "SkillPercentageScalingCurve" : 0.181,
+    "SkillCooldownScalingCurve" : 0.124,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "9" : {
+    "Agent Level" : 9,
+    "PlayerExclusiveBaseGearScalingCurve" : 1,
+    "BaseGearScalingCurve" : 1,
+    "BaseGearDamageScalingCurve" : 1,
+    "SkillPercentageScalingCurve" : 0.207,
+    "SkillCooldownScalingCurve" : 0.128,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "10" : {
+    "Agent Level" : 10,
+    "PlayerExclusiveBaseGearScalingCurve" : 1,
+    "BaseGearScalingCurve" : 1,
+    "BaseGearDamageScalingCurve" : 1,
+    "SkillPercentageScalingCurve" : 0.233,
+    "SkillCooldownScalingCurve" : 0.131,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "11" : {
+    "Agent Level" : 11,
+    "PlayerExclusiveBaseGearScalingCurve" : 1,
+    "BaseGearScalingCurve" : 1,
+    "BaseGearDamageScalingCurve" : 1,
+    "SkillPercentageScalingCurve" : 0.259,
+    "SkillCooldownScalingCurve" : 0.134,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "12" : {
+    "Agent Level" : 12,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.02,
+    "BaseGearScalingCurve" : 1.02,
+    "BaseGearDamageScalingCurve" : 1.02,
+    "SkillPercentageScalingCurve" : 0.284,
+    "SkillCooldownScalingCurve" : 0.138,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "13" : {
+    "Agent Level" : 13,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.04,
+    "BaseGearScalingCurve" : 1.04,
+    "BaseGearDamageScalingCurve" : 1.06,
+    "SkillPercentageScalingCurve" : 0.31,
+    "SkillCooldownScalingCurve" : 0.141,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "14" : {
+    "Agent Level" : 14,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.06,
+    "BaseGearScalingCurve" : 1.06,
+    "BaseGearDamageScalingCurve" : 1.09,
+    "SkillPercentageScalingCurve" : 0.336,
+    "SkillCooldownScalingCurve" : 0.145,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "15" : {
+    "Agent Level" : 15,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.07,
+    "BaseGearScalingCurve" : 1.07,
+    "BaseGearDamageScalingCurve" : 1.12,
+    "SkillPercentageScalingCurve" : 0.362,
+    "SkillCooldownScalingCurve" : 0.148,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "16" : {
+    "Agent Level" : 16,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.09,
+    "BaseGearScalingCurve" : 1.09,
+    "BaseGearDamageScalingCurve" : 1.16,
+    "SkillPercentageScalingCurve" : 0.388,
+    "SkillCooldownScalingCurve" : 0.152,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "17" : {
+    "Agent Level" : 17,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.11,
+    "BaseGearScalingCurve" : 1.11,
+    "BaseGearDamageScalingCurve" : 1.19,
+    "SkillPercentageScalingCurve" : 0.414,
+    "SkillCooldownScalingCurve" : 0.155,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "18" : {
+    "Agent Level" : 18,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.13,
+    "BaseGearScalingCurve" : 1.13,
+    "BaseGearDamageScalingCurve" : 1.23,
+    "SkillPercentageScalingCurve" : 0.44,
+    "SkillCooldownScalingCurve" : 0.159,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "19" : {
+    "Agent Level" : 19,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.15,
+    "BaseGearScalingCurve" : 1.15,
+    "BaseGearDamageScalingCurve" : 1.27,
+    "SkillPercentageScalingCurve" : 0.466,
+    "SkillCooldownScalingCurve" : 0.162,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "20" : {
+    "Agent Level" : 20,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.17,
+    "BaseGearScalingCurve" : 1.17,
+    "BaseGearDamageScalingCurve" : 1.31,
+    "SkillPercentageScalingCurve" : 0.491,
+    "SkillCooldownScalingCurve" : 0.166,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "21" : {
+    "Agent Level" : 21,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.18,
+    "BaseGearScalingCurve" : 1.18,
+    "BaseGearDamageScalingCurve" : 1.24,
+    "SkillPercentageScalingCurve" : 0.517,
+    "SkillCooldownScalingCurve" : 0.169,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "22" : {
+    "Agent Level" : 22,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.2,
+    "BaseGearScalingCurve" : 1.2,
+    "BaseGearDamageScalingCurve" : 1.38,
+    "SkillPercentageScalingCurve" : 0.543,
+    "SkillCooldownScalingCurve" : 0.172,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "23" : {
+    "Agent Level" : 23,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.22,
+    "BaseGearScalingCurve" : 1.22,
+    "BaseGearDamageScalingCurve" : 1.43,
+    "SkillPercentageScalingCurve" : 0.569,
+    "SkillCooldownScalingCurve" : 0.176,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "24" : {
+    "Agent Level" : 24,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.24,
+    "BaseGearScalingCurve" : 1.24,
+    "BaseGearDamageScalingCurve" : 1.47,
+    "SkillPercentageScalingCurve" : 0.595,
+    "SkillCooldownScalingCurve" : 0.179,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "25" : {
+    "Agent Level" : 25,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.26,
+    "BaseGearScalingCurve" : 1.26,
+    "BaseGearDamageScalingCurve" : 1.51,
+    "SkillPercentageScalingCurve" : 0.621,
+    "SkillCooldownScalingCurve" : 0.183,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "26" : {
+    "Agent Level" : 26,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.28,
+    "BaseGearScalingCurve" : 1.28,
+    "BaseGearDamageScalingCurve" : 1.55,
+    "SkillPercentageScalingCurve" : 0.647,
+    "SkillCooldownScalingCurve" : 0.186,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "27" : {
+    "Agent Level" : 27,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.29,
+    "BaseGearScalingCurve" : 1.29,
+    "BaseGearDamageScalingCurve" : 1.59,
+    "SkillPercentageScalingCurve" : 0.672,
+    "SkillCooldownScalingCurve" : 0.19,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "28" : {
+    "Agent Level" : 28,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.31,
+    "BaseGearScalingCurve" : 1.31,
+    "BaseGearDamageScalingCurve" : 1.63,
+    "SkillPercentageScalingCurve" : 0.698,
+    "SkillCooldownScalingCurve" : 0.193,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "29" : {
+    "Agent Level" : 29,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.33,
+    "BaseGearScalingCurve" : 1.33,
+    "BaseGearDamageScalingCurve" : 1.68,
+    "SkillPercentageScalingCurve" : 0.724,
+    "SkillCooldownScalingCurve" : 0.197,
+    "ArmorMitigationRatingDivisorCalc" : 500
+  },
+  "30" : {
+    "Agent Level" : 30,
+    "PlayerExclusiveBaseGearScalingCurve" : 1.35,
+    "BaseGearScalingCurve" : 1.35,
+    "BaseGearDamageScalingCurve" : 1.72,
+    "SkillPercentageScalingCurve" : 0.75,
+    "SkillCooldownScalingCurve" : 0.2,
+    "ArmorMitigationRatingDivisorCalc" : 450
+  },
+  "31" : {
+    "Agent Level" : 31,
+    "PlayerExclusiveBaseGearScalingCurve" : "",
+    "BaseGearScalingCurve" : 1.9,
+    "BaseGearDamageScalingCurve" : 1.9,
+    "SkillPercentageScalingCurve" : "",
+    "SkillCooldownScalingCurve" : "",
+    "ArmorMitigationRatingDivisorCalc" : ""
+  },
+  "32" : {
+    "Agent Level" : 32,
+    "PlayerExclusiveBaseGearScalingCurve" : "",
+    "BaseGearScalingCurve" : 2.5,
+    "BaseGearDamageScalingCurve" : 2.5,
+    "SkillPercentageScalingCurve" : "",
+    "SkillCooldownScalingCurve" : "",
+    "ArmorMitigationRatingDivisorCalc" : ""
+  }
+}
