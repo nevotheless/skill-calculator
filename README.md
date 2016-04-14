@@ -35,8 +35,16 @@ In case you have questions or need support you can either [open an issue ticket]
 
 ### Credits
 
-- [Miodec](https://www.reddit.com/user/miodec) originally created the skill calculator
-- [nevotheless](https://www.reddit.com/user/nevotheless) thats me, the guy who continued this project
-- [try4ce](https://www.reddit.com/user/try4ce) did some css corrections
-- [iamswain](https://www.reddit.com/user/iamswain) helped doing the icons
-- [Angier](https://www.reddit.com/user/angier85) is just the awesome guy :heart:
+Thanks to all these beautiful people who made this project an awesome thing to work with.
+
+Because The Division Discord is such a great place it's need to be mentioned that almost all of these people are active members of that.
+
+| User     | Discord       | Reddit                                           | Contribution |
+|:--------:|:-------------:|:------------------------------------------------:|--------------|
+| Miodec   | Miodec#9326   | [Miodec](https://www.reddit.com/user/miodec)     | Originally created the skill calculator
+| try4ce   |               | [try4ce](https://www.reddit.com/user/try4ce)     | Did some css corrections
+| iamswain |               | [iamswain](https://www.reddit.com/user/iamswain) | Helped doing the icons
+| angier   | Angier#5381   | [Angier](https://www.reddit.com/user/angier85)   | is just the awesome guy :heart:
+| spydr101 | spydr101#5067 | [spydr101](https://www.reddit.com/user/spydr101) | Maintainer of the [calculation base sheet](https://docs.google.com/spreadsheets/d/1PPR9FBZ2JN1Dbd8tGlq1Mwg9PTTy82_m8A-X36dxyyc/edit#gid=914965688)
+| total    | Total#3514    | [unwind](https://www.reddit.com/user/unwind)     | Contributor of the calculation base sheet
+| penoxi   | Penoxi#4162   | [penoxi](https://www.reddit.com/user/Penox)      | Contributor of the calculation base sheet
