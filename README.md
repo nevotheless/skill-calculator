@@ -9,17 +9,6 @@ This is the repository for the Skill Calculator based on Tom Clancy's The Divisi
 - Sass
 - Angular.js
 
-### Roadmap
-
-This refers to the [Version 2 Milestone](https://github.com/ununseptium/skill-calculator/milestones). The following list contains the most important stuff that needs to be done until Version 2 can be released.
-
- - [x] Put that whole thing on Github to make it Open Source
- - [x] Create a development workflow
-  - [x] [Testing with Travis](https://github.com/ununseptium/skill-calculator/commit/ea0010b035feb41439f5053094cf7aaaf4c63724)
-  - [x] [Automatic deployment to heroku](https://github.com/ununseptium/skill-calculator/commit/fd6ce68e1aa345c311a0bb73394bdb91a5a235b3)
- - [ ] Rearrange how the data is handled (Work in Progress | [Pull-Request #10](https://github.com/ununseptium/skill-calculator/pull/10))
- - [ ] Add calculation
- 
 ### Usage
 
 Once you either cloned or downloaded the source run `npm install` to install the dependencies. **Make sure to have gulp installed globally**.
