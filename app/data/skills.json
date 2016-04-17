@@ -633,7 +633,7 @@
               {
                 "name": "Duration",
                 "base": 5,
-                "unit": "m",
+                "unit": "s",
                 "modifier": 5
               },
               {
@@ -1796,23 +1796,27 @@
             "attr": [
               {
                 "name": "Health",
-                "base": 107498,
-                "unit": "HP"
+                "base": 40312,
+                "unit": "HP",
+                "modifier": 8000
               },
               {
                 "name": "Weapon Resistance",
-                "base": 20,
-                "unit": "%"
+                "base": 10,
+                "unit": "%",
+                "modifier": 0.2
               },
               {
                 "name": "Blast Resistance",
-                "base": 25,
-                "unit": "%"
+                "base": 12,
+                "unit": "%",
+                "modifier": 0.25
               },
               {
                 "name": "Cooldown",
-                "base": 37,
-                "unit": "s"
+                "base": 41.7,
+                "unit": "s",
+                "modifier": 40
               }
             ]
           }

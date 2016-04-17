@@ -189,7 +189,7 @@ app.controller('skillCtrl', function($scope, $http) {
 
                     if(unit == "%")
                     {
-                        if(name == "Critical Hit Damage" || name == "Critical Hit Chance" || name == "Damage Buff") {
+                        if(name == "Critical Hit Damage" || name == "Critical Hit Chance") {
                             // console.log($scope.skillPower);
                             if($scope.mod.name == "Tactical Link") {
                                 var result = modifier;
@@ -197,10 +197,13 @@ app.controller('skillCtrl', function($scope, $http) {
                             //console.log($scope.mod)
                             var result = (modifier + (modifier * SkillPercentageScalingCurve * SkillPowerRatio)) * 100
                         }
+                        if(name == "Damage Buff" || name == "Damage Resistance") {
+                            var result = modifier + (modifier * SkillPowerRatio * SkillPercentageScalingCurve)
+                        }
                         if(name == "Weapon Resistance" || name == "Blast Resistance") {
                             var result = modifier * 100;
                         }
-                        if(name == "Damage Increase" || name == "Damage Resistance" || name == "Movement Speed") {
+                        if(name == "Damage Increase" || name == "Movement Speed") {
                             var result = modifier;
                         }
                     }
@@ -641,7 +644,7 @@ app.controller('skillCtrl', function($scope, $http) {
 
                     }
                     result = cap($scope.skill.name, $scope.mod.name, name, result);
-                    console.log(result);
+                    //console.log(result);
                     return result.toFixed(2) + unit;
                 }
 
