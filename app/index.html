@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="skill-calculator">
+<html lang="en" data-ng-app="skill-calculator">
    <head>
       <meta charset="UTF-8">
       <meta name="keywords" content="app the division, skill, skills, skill calculator, division, the division skills, the division skill mods, the division talents, the division perks, division skills, division talents, division perks, miodec">
@@ -12,12 +12,12 @@
       <link href="http://static9.cdn.ubi.com/resource/en-US/game/tomclancy-thedivision/game/TheDivision_FavIcon_101572.png" rel="icon" type="image/ico" />
    </head>
    <body>
-      <div id="container" ng-controller="glob" ng-init="selectedTab = 'skills'">
-          <a href="#!/skills"><div ng-class="{'tabToggle':selectedTab === 'skills'}" class="tab tabSkills" ng-click="selectedTab = 'skills'" id="tabSkills"><div class="tabLine"></div>Skills</div></a>
-          <a href="#!/talents"><div ng-class="{'tabToggle':selectedTab === 'talents'}" class="tab tabTalents" ng-click="selectedTab = 'talents'" id="tabTalents"><div class="tabLine"></div>Talents</div></a>
-          <a href="#!/perks"><div ng-class="{'tabToggle':selectedTab === 'perks'}" class="tab tabPerks" ng-click="selectedTab = 'perks'" id="tabPerks"><div class="tabLine"></div>Perks</div></a>
+      <div id="container" data-ng-controller="glob" data-ng-init="selectedTab = 'skills'">
+          <a href="#!/skills"><div data-ng-class="{'tabToggle':selectedTab === 'skills'}" class="tab tabSkills" data-ng-click="selectedTab = 'skills'" id="tabSkills"><div class="tabLine"></div>Skills</div></a>
+          <a href="#!/talents"><div data-ng-class="{'tabToggle':selectedTab === 'talents'}" class="tab tabTalents" data-ng-click="selectedTab = 'talents'" id="tabTalents"><div class="tabLine"></div>Talents</div></a>
+          <a href="#!/perks"><div data-ng-class="{'tabToggle':selectedTab === 'perks'}" class="tab tabPerks" data-ng-click="selectedTab = 'perks'" id="tabPerks"><div class="tabLine"></div>Perks</div></a>
           <hr style="margin-bottom: 0;">
-          <div class="main" ng-view></div>
+          <div class="main" data-ng-view></div>
       </div>
       <div id="footer">
          <span style="color:#777;font-size: 15px;left: 30px;bottom: 0px;position: absolute;">
@@ -25,7 +25,7 @@
             If you encounter exceptionally weird values please report them!<br>
          <br>Based on Game Version: <i>1.1</i>. Check out our The Division <a href="https://discord.gg/0lh5FmzP4CEReLAt">Discord server</a> | <a href="https://github.com/ununseptium/skill-calculator/issues/new">Report Issues</a> | <a href="https://github.com/ununseptium/skill-calculator#credits">Credits &hearts;</a> </span>
       </div>
-      <script language="JavaScript" type="application/javascript">
+      <script type="application/javascript">
           var noticeTalentsPlayed = false;
           var noticePerksPlayed = false;
 

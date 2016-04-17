@@ -1,4 +1,4 @@
-<div class="tabContainerPerks" ng-controller="perksCtrl">
+<div class="tabContainerPerks" data-ng-controller="perksCtrl">
     <div class="noticePerks" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game perks are passive. You just have to unlock them.</div>
     <table>
         <tr>
@@ -10,7 +10,7 @@
                         </center>
                     </div>
                     <div class="perks medicalSkills">
-                        <div ng-repeat="perk in medical" ng-class="getPerkIconClass(0, perk)" ng-mouseover="changePerkContext('Medical', perk)" class="perkBox per1" id="perMed1"></div>
+                        <div data-ng-repeat="perk in medical" data-ng-class="getPerkIconClass(0, perk)" data-ng-mouseover="changePerkContext('Medical', perk)" class="perkBox per1" id="perMed1"></div>
                     </div>
                 </div>
             </td>
@@ -22,7 +22,7 @@
                         </center>
                     </div>
                     <div class="perks techSkills">
-                        <div ng-repeat="perk in tec" ng-class="getPerkIconClass(0, perk)" ng-mouseover="changePerkContext('Tech', perk)" class="perkBox"></div>
+                        <div data-ng-repeat="perk in tec" data-ng-class="getPerkIconClass(0, perk)" data-ng-mouseover="changePerkContext('Tech', perk)" class="perkBox"></div>
                     </div>
                 </div>
             </td>
@@ -34,7 +34,7 @@
                         </center>
                     </div>
                     <div class="perks secSkills">
-                        <div ng-repeat="perk in sec" ng-class="getPerkIconClass(0, perk)" ng-mouseover="changePerkContext('Security', perk)" class="perkBox"></div>
+                        <div data-ng-repeat="perk in sec" data-ng-class="getPerkIconClass(0, perk)" data-ng-mouseover="changePerkContext('Security', perk)" class="perkBox"></div>
                     </div>
                 </div>
             </td>
@@ -44,7 +44,7 @@
                         <table>
                             <tr>
                                 <td rowspan="2">
-                                    <div class="perInfoPerkIcon" ng-class="getPerkIconClass(1, perk)"></div>
+                                    <div class="perInfoPerkIcon" data-ng-class="getPerkIconClass(1, perk)"></div>
                                 </td>
                                 <td height="50px" width="100%" style="line-height: 29px;padding-top: 8px;">
                                     <span style="font-size: 30px;" id="perInfoPerkName">{{perk.name}}</span>
@@ -62,7 +62,7 @@
                               <table>
                                  <tr>
                                     <td rowspan="2">
-                                       <div ng-class="getTreeIcon(tree)" class="reqIcon"></div>
+                                       <div data-ng-class="getTreeIcon(tree)" class="reqIcon"></div>
                                     </td>
                                     <td valign="bottom"><span class="reqTree">{{tree}} Tree Upgrade</span>
                                     <br>

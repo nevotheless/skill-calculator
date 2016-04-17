@@ -1,4 +1,4 @@
-<div class="tabContainerSkills" ng-controller="skillCtrl">
+<div class="tabContainerSkills" data-ng-controller="skillCtrl">
     <div class="noticeSkills" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game you can choose 2 skills and 1 signature skill.</div>
     <table style="margin-top: 20px">
         <tr>
@@ -13,7 +13,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="(key, value) in medical" class="skillBox" ng-class="getSkillIconClass('medical',key)" ng-click="changeContext('medical',key)"></div>
+                                    <div data-ng-repeat="(key, value) in medical" class="skillBox" data-ng-class="getSkillIconClass('medical',key)" data-ng-click="changeContext('medical',key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -31,7 +31,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="(key, value) in tec" class="skillBox" ng-class="getSkillIconClass('tec',key)" ng-click="changeContext('tec',key)"></div>
+                                    <div data-ng-repeat="(key, value) in tec" class="skillBox" data-ng-class="getSkillIconClass('tec',key)" data-ng-click="changeContext('tec',key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -49,7 +49,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div ng-repeat="(key, value) in sec" class="skillBox" ng-class="getSkillIconClass('sec',key)" ng-click="changeContext('sec',key)"></div>
+                                    <div data-ng-repeat="(key, value) in sec" class="skillBox" data-ng-class="getSkillIconClass('sec',key)" data-ng-click="changeContext('sec',key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -62,7 +62,7 @@
                         <table>
                             <tr>
                                 <td rowspan="2" width="5%">
-                                    <div ng-class="skillIconClass" class="infoSkillIcon"></div>
+                                    <div data-ng-class="skillIconClass" class="infoSkillIcon"></div>
                                 </td>
                                 <td height="50px" width="20%" style="line-height: 29px;padding-top: 8px;">
                                     <span style="font-size: 30px;" id="infoSkillName">{{skill.name}}</span>
@@ -70,27 +70,27 @@
                                     <span class="available">Available</span>
                                 </td>
                                 <td height="" width="10%" style="font-size: 30px;line-height: 29px;padding-top: 8px;text-align:right;">
-                                    <div class="playerLevel" title="Player Level is currently set fix to 30"><input class="skillInput disabled" type="text" ng-init="playerLevel=30" ng-model="playerLevel" placeholder="30" disabled><br> Player Level</div>
+                                    <div class="playerLevel" title="Player Level is currently set fix to 30"><input class="skillInput disabled" type="text" data-ng-init="playerLevel=30" data-ng-model="playerLevel" placeholder="30" disabled><br> Player Level</div>
                                 </td>
                                <!-- <td height="" width="10%" style="font-size: 30px;line-height: 29px;padding-top: 8px;text-align:right;">
-                                    <div class="skillPower"><input class="skillInput" type="text" ng-model="skillBonus" placeholder="Value"><br> Skill Bonus</div>
+                                    <div class="skillPower"><input class="skillInput" type="text" data-ng-model="skillBonus" placeholder="Value"><br> Skill Bonus</div>
                                 </td> -->
                                 <td height="50px" width="10%" style="font-size: 30px;line-height: 29px;padding-top: 8px;text-align:right;">
-                                    <div class="skillPower"><input class="skillInput" type="text" ng-init="skillPower=15000"ng-model="skillPower" placeholder="15000"><br> Skill Power</div>
+                                    <div class="skillPower"><input class="skillInput" type="text" data-ng-init="skillPower=15000" data-ng-model="skillPower" placeholder="15000"><br> Skill Power</div>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <div class="infoBox">
                         <table width="100%" class="modsTable">
-                            <tr height="50px" ng-class="isSignature(1, skill.name)">
+                            <tr height="50px" data-ng-class="isSignature(1, skill.name)">
                                 <td width="20%" style="color:orange;"><span class="skillModBase">Base</span></td>
                                 <td width="60%" style="color:orange;">Modifications</td>
                                 <td width="20%" style="color:orange;">Master</td>
                             </tr>
                             <tr>
-                                <td colspan="3" id="modBoxes" ng-class="isSignature(1, skill.name)">
-                                    <div toggle-class="boxToggle" ng-repeat="(key, value) in mods" ng-class="[getModIconClass(skill.name, key), isSignature(0, skill.name)]" class="modBox mod1" id="mod1" ng-mouseover="changeSubContext(key)"></div>
+                                <td colspan="3" id="modBoxes" data-ng-class="isSignature(1, skill.name)">
+                                    <div toggle-class="boxToggle" data-ng-repeat="(key, value) in mods" data-ng-class="[getModIconClass(skill.name, key), isSignature(0, skill.name)]" class="modBox mod1" id="mod1" data-ng-mouseover="changeSubContext(key)"></div>
                                 </td>
                             </tr>
                         </table>
@@ -127,7 +127,7 @@
                                     <td width="30%">Total</td>
                                 </tr>
                                 </thead>
-                                <tr ng-repeat="data in mod.attr">
+                                <tr data-ng-repeat="data in mod.attr">
                                     <td><span>{{data.name}}</span></td>
                                     <td><span>{{data.base}}</span><span>{{data.unit}}</span></td>
                                     <td>{{calc(data.name, data.base, data.unit, data.modifier)}}</td>

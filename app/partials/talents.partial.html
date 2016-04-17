@@ -1,4 +1,4 @@
-<div class="tabContainerTalents" ng-controller="talentsCtrl">
+<div class="tabContainerTalents" data-ng-controller="talentsCtrl">
     <div class="noticeTalents" style="color: #FFF;text-align: center;height: 50px;line-height: 50px;background-color: #444;">In the game you can choose up to 4 talents.</div>
     <table>
         <tr>
@@ -12,7 +12,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div toggle-class="boxToggle" ng-repeat="talent in medical"  ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Medical', talent)" id="talMed1"></div>
+                                    <div toggle-class="boxToggle" data-ng-repeat="talent in medical"  data-ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" data-ng-mouseover="changeTalentContext('Medical', talent)" id="talMed1"></div>
                                 </td>
                             </tr>
                         </table>
@@ -29,7 +29,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div toggle-class="boxToggle" ng-repeat="talent in tec" ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Tech', talent)" id="talTec1"></div>
+                                    <div toggle-class="boxToggle" data-ng-repeat="talent in tec" data-ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" data-ng-mouseover="changeTalentContext('Tech', talent)" id="talTec1"></div>
                                 </td>
                             </tr>
                         </table>
@@ -46,7 +46,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <div toggle-class="boxToggle" ng-repeat="talent in sec"  ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" ng-mouseover="changeTalentContext('Security', talent)" id="talSec1"></div>
+                                    <div toggle-class="boxToggle" data-ng-repeat="talent in sec"  data-ng-class="getTalentIconClass(0, talent)" class="talentBox tal1" data-ng-mouseover="changeTalentContext('Security', talent)" id="talSec1"></div>
                             </tr>
                         </table>
                     </div>
@@ -58,7 +58,7 @@
                         <table width="100%">
                             <tr>
                                 <td rowspan="2">
-                                    <div ng-class="getTalentIconClass(1, talent.name)" class="talInfoTalentIcon"></div>
+                                    <div data-ng-class="getTalentIconClass(1, talent.name)" class="talInfoTalentIcon"></div>
                                 </td>
                                 <td height="50px" width="100%" style="line-height: 29px;padding-top: 5px;">
                                     <span style="font-size: 30px;" id="talInfoTalentName">{{talent.name}}</span>
@@ -70,14 +70,14 @@
                     </div>
                     <div class="talInfoBox">
                         <br>
-                            <div ng-class="getHiddenState(talent.req)">
+                            <div data-ng-class="getHiddenState(talent.req)">
                                 <span class="talReq">
                                     <span style="margin-bottom: 0px;color:orange;">Requirement</span>
                                     <br>
                                     <table>
                                         <tr>
                                             <td rowspan="2">
-                                                <div ng-class="getTreeIcon(tree)" class="talReqIcon"></div>
+                                                <div data-ng-class="getTreeIcon(tree)" class="talReqIcon"></div>
                                             </td>
                                             <td valign="bottom"><span class="talReqTree">{{tree}} Tree Upgrade</span>
                                             <br>
