@@ -1,0 +1,6 @@
+hooks:
+  pre: npm install
+nodejs:
+  version: '5.0.0'
+tests:
+  - gulp test
