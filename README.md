@@ -33,3 +33,6 @@ Thanks to all these beautiful people who made this project an awesome thing to w
 - [spydr101](https://www.reddit.com/user/spydr101) Maintainer of the [calculation base - sheet](https://docs.google.com/spreadsheets/d/1PPR9FBZ2JN1Dbd8tGlq1Mwg9PTTy82_m8A-X36dxyyc/edit#gid=914965688)
 - [unwind](https://www.reddit.com/user/unwind) Contributor of the calculation base sheet
 - [penoxi](https://www.reddit.com/user/Penox) Contributor of the calculation base sheet
+
+
+<3
