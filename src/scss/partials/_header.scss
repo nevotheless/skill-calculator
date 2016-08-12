@@ -8,3 +8,15 @@
 
   }
 }
+.psa {
+  background: red;
+  padding: 0 15px;
+  text-align: center;
+  span {
+    font-size: .6em;
+    text-transform: uppercase;
+    a {
+      font-size: inherit;
+    }
+  }
+}
