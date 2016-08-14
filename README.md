@@ -5,22 +5,31 @@ This is the repository for the Skill Calculator based on Tom Clancy's The Divisi
 
 ### Technology which is used
 
+- Node
 - Gulp
 - Sass
 - Angular.js
 
 ### Usage
 
-Once you either cloned or downloaded the source run `npm install` to install the dependencies. **Make sure to have gulp installed globally**.
+First of all you need to have Node + Npm installed. Checkout https://nodejs.org/en/
+
+Once you either cloned or downloaded the source, you can run `npm install` (while using a command line prompt pointed to the downloaded folder) to install the dependencies. **Make sure to have gulp installed globally** (`npm install -g gulp`).
 
 If `npm install` quits without telling you that something horrible happend you're ready to fire `gulp`.
 This will compile the source, watch for changes and reload the browser window if a file is changed. **Pure Magic**.
 
 ### Contribute
-Feel Free to fork and do pull requests. There're no restrictions just be nice!
+Fork this and make it your own.
+
+I'm not going to continue this repository anymore and will take down the website 1st September 2016. I've written an article about that: https://medium.com/@nevotheless/end-of-skill-calculator-7bf1de21ee9f
+
+If you wan't to host the app with full support of the current domain, feel free to contact me.
+
+
 
 ### Support
-In case you have questions or need support you can either [open an issue ticket](https://github.com/ununseptium/skill-calculator/issues/new).
+Since i won't continuing this application anymore i'm not going to provide support for this anymore. You can still contact me but it's not guaranteed that i'll answer.
 
 ### Credits
 
