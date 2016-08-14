@@ -3,6 +3,9 @@
 
 This is the repository for the Skill Calculator based on Tom Clancy's The Division. The Skill Calculator was originally made by [Miodec](https://www.reddit.com/user/miodec) and is now continued and maintained by some guys from the [Discord Community](http://thedivisiondiscord.com) of the Game.
 
+## App will be shut down 1st September 2016
+Check this out: https://medium.com/@nevotheless/end-of-skill-calculator-7bf1de21ee9f
+
 ### Technology which is used
 
 - Node
