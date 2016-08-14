@@ -6,6 +6,8 @@ This is the repository for the Skill Calculator based on Tom Clancy's The Divisi
 ## App will be shut down 1st September 2016
 Check this out: https://medium.com/@nevotheless/end-of-skill-calculator-7bf1de21ee9f
 
+Also checkout: https://github.com/ununseptium/skill-calculator-electron
+
 ### Technology which is used
 
 - Node
