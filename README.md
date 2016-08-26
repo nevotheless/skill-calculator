@@ -10,6 +10,6 @@ Check this out: https://medium.com/@nevotheless/end-of-skill-calculator-7bf1de21
 
 ### Credits
 
-Thanks to all these beautiful people who made this project an awesome thing: Miodec,try4ce,iamswain,Angier,spydr101,unwind,penoxi 
+Thanks to all these beautiful people who made this project an awesome thing: Miodec, try4ce, iamswain, Angier, spydr101, unwind, penoxi 
 
 <3
